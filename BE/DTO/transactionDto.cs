@@ -10,8 +10,7 @@ namespace BE.DTO
     {
         public int cash { get; set; }
         public int amount { get; set; }
-        public string destinatary { get; set; } = string.Empty;
-        public string origin { get; set; } = string.Empty;
-        public string token { get; set; } = string.Empty;
+        public int destinatary { get; set; }
+        public int origin { get; set; } 
     }
 }

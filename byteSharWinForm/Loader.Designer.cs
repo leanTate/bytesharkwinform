@@ -99,6 +99,7 @@
             this.Controls.Add(this.panelLoader);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Loader";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Loader";
             this.Load += new System.EventHandler(this.Loader_Load);
             this.panelLoader.ResumeLayout(false);

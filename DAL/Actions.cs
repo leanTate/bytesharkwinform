@@ -13,6 +13,40 @@ namespace DAL
 {
     public class Actions
     {
+        public DataTable transferencesForMe(int cbu, int dni)
+        {
+            try
+            {
+                ConectionDB connect = ConectionDB.Instance;
+                connect.OpenConnection();
+                SqlDataAdapter adapter = new SqlDataAdapter($"select receptor=(select username from users where dni={dni}),valor,username as emisor from transactions as t inner join users as u on cbu_emisor=cbu where cbu_receptor={cbu};", connect.sqlConnection);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                return dt;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+        public DataTable transferences(int cbu,int dni)
+        {
+            try
+            {
+                ConectionDB connect = ConectionDB.Instance;
+                connect.OpenConnection();
+                SqlDataAdapter adapter = new SqlDataAdapter($"select emisor=(select username from users where dni={dni}),valor,username as receptor from transactions as t inner join users as u on cbu_receptor=cbu where cbu_emisor={cbu};",connect.sqlConnection);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                return dt;
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
         public bool Transaction(transactionDto req) {
             try {
                 ConectionDB connect = ConectionDB.Instance;
@@ -93,7 +127,7 @@ namespace DAL
                 return false;
             }
         }
-        public UserDto getData(string mail)
+        public UserDto GetData(string mail)
         {
             UserDto user = new UserDto();
             try
@@ -117,6 +151,8 @@ namespace DAL
                     user.saldo = Convert.ToInt32(reader.GetValue(8));
                 }
                 connect.CloseConnection();
+                reader = null;
+                reader.Close();
                 return user;
             }
             catch (Exception ex)

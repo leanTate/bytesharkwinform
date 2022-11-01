@@ -11,6 +11,10 @@ using FontAwesome.Sharp;
 using System.Runtime.InteropServices;
 using byteSharWinForm;
 using byteSharWinForm.Forms;
+using BE.entities;
+using BE.DTO;
+using DAL;
+using ByteCard.Controllers;
 
 namespace byteSharWinForm
 {
@@ -20,10 +24,13 @@ namespace byteSharWinForm
         private IconButton currentBtn;
         private Panel leftBorderBtn;
         private Form currentChildForm;
+        public UserDto userd;
+        public User user;
 
 
-        public Dashboard()
+        public Dashboard(UserDto usr)
         {
+            HomeController actions = new();
             InitializeComponent();
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(5, 45);
@@ -33,7 +40,9 @@ namespace byteSharWinForm
             this.ControlBox = false;
             this.DoubleBuffered = true;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
-
+            this.user = actions.GetData(usr.mail);
+            lblName.Text = user.userName;
+            
             timer1.Start();
         }
 
@@ -145,7 +154,7 @@ namespace byteSharWinForm
             {
                 Form1 loginFrm = new Form1();
                 loginFrm.Show();
-                this.Hide();
+                this.Close();
             }
         }
 
@@ -164,13 +173,13 @@ namespace byteSharWinForm
         private void btnTransference_Click(object sender, EventArgs e)
         {
             ActivarBoton(sender, RGBColors.color3);
-            OpenChildForm(new Transference());
+            OpenChildForm(new Transference(user));
         }
 
         private void btnBalance_Click(object sender, EventArgs e)
         {
             ActivarBoton(sender, RGBColors.color3);
-            OpenChildForm(new Balance());
+            OpenChildForm(new Balance(user));
         }
 
         private void btnHome_Click(object sender, EventArgs e)
@@ -189,6 +198,12 @@ namespace byteSharWinForm
             iconCurrentChildForm.IconChar = IconChar.Home;
             iconCurrentChildForm.IconColor = RGBColors.color3 ;
             lblTitleChildForm.Text = "Home";
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            HomeController actions = new();
+            actions.OpenCalculator();
         }
     }
 }

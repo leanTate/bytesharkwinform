@@ -8,14 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using BE.DTO;
+using BE;
+using BE.entities;
 
 namespace byteSharWinForm
 {
     public partial class Loader : Form
     {
-        public Loader()
+        UserDto usr;
+        public Loader(UserDto usr)
         {
             InitializeComponent();
+            this.usr = usr;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -24,7 +29,7 @@ namespace byteSharWinForm
             if (PBStart.Value == 99)
             {
                 timer1.Stop();
-                Dashboard dashboardFrm = new Dashboard();
+                Dashboard dashboardFrm = new Dashboard(usr);
                 dashboardFrm.Show();
                 this.Hide();
 

@@ -18,18 +18,21 @@ namespace byteSharWinForm
             LoginDto log = new LoginDto();
             log.mail = emailtxt.Text;
             log.password = passwordtxt.Text;
-            UserDto user= new UserDto(); 
-            bool myusr=auth.Login(log);
-            /* if(myusr)
+            UserDto myusr=auth.Login(log);
+            if (myusr!=null)
             {
-            Loader loaderFrm = new Loader();
-            loaderFrm.Show();
-            this.Hide();
-            }*/
+                Loader loaderFrm = new Loader(myusr);
+                loaderFrm.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Usuario o contraseña incorrectos");
+            }
 
-            Loader loaderFrm = new Loader();
-            loaderFrm.Show();
-            this.Hide();
+            //Loader loaderFrm = new Loader();
+            //loaderFrm.Show();
+            //this.Hide();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -53,6 +56,13 @@ namespace byteSharWinForm
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            Form2 newform = new Form2();
+            newform.Show();
+            this.Hide();
         }
     }
 }

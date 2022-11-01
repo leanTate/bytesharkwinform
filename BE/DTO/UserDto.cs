@@ -16,6 +16,7 @@ namespace BE.DTO
         public int celphone { get; set; }
         public int saldo { get; set; }
         public int cbu { get; set; }
+        public int cardnumber { get; set; }
         
     }
 }

@@ -13,11 +13,12 @@ namespace ByteCard.Controllers
             string hashpass = HashService.hashPass(usr.password);
             UserDAO userDAO = new UserDAO();
             usr.password = hashpass;
-            int cbu = new Random().Next(100000000, 999999999);
-            return userDAO.Register(usr,cbu) ? true : false;
+            int cbu = new Random().Next(10000000,999999999);
+            int card = new Random().Next(10000000,999999999);
+            return userDAO.Register(usr,cbu,card) ? true : false;
         }
 
-        public bool Login(LoginDto request)
+        public UserDto Login(LoginDto request)
         {
             string hashpass = HashService.hashPass(request.password);
             UserDAO userDAO = new UserDAO();
@@ -30,9 +31,9 @@ namespace ByteCard.Controllers
             user.dni = SQLresponse.dni;
             user.saldo = SQLresponse.saldo;
             user.cbu = SQLresponse.cbu;
+            user.cardnumber = SQLresponse.cardnumber;
             bool log = SQLresponse.mail == request.mail && SQLresponse.password == hashpass ? true : false;
-            MessageBox.Show(log.ToString());
-            return log ? true : false; 
+            return log ? user : null; 
         }
     }
 }

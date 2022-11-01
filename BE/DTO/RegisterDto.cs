@@ -14,5 +14,6 @@ namespace BE.DTO
         public string password { get; set; } = string.Empty;
         public int dni { get; set; }
         public int celphone { get; set; }
+        
     }
 }

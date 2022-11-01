@@ -17,8 +17,6 @@ C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\bin\Debu
 C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\BLL.dll
 C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\DAL.dll
 C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\Security.dll
-C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\DotNetEnv.dll
-C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\Sprache.dll
 C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\BE.pdb
 C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\BLL.pdb
 C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\Security.pdb
@@ -37,11 +35,6 @@ C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\obj\Debu
 C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\obj\Debug\net6.0-windows\byteSharWinForm.genruntimeconfig.cache
 C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\obj\Debug\net6.0-windows\ref\byteSharWinForm.dll
 C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\Guna.UI2.dll
-C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\DynamicData.dll
-C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\MaterialDesignColors.dll
-C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\ReactiveUI.dll
-C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\Splat.dll
-C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\System.Reactive.dll
 C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\Azure.Core.dll
 C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\Azure.Identity.dll
 C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
@@ -136,3 +129,10 @@ C:\Users\lauta\OneDrive\Escritorio\bytesharkwinform-master\byteSharWinForm\obj\D
 C:\Users\lauta\OneDrive\Escritorio\bytesharkwinform-master\byteSharWinForm\obj\Debug\net6.0-windows\byteSharWinForm.Properties.Resources.resources
 C:\Users\lauta\OneDrive\Escritorio\bytesharkwinform-master\byteSharWinForm\obj\Debug\net6.0-windows\byteSharWinForm.Forms.Balance.resources
 C:\Users\lauta\OneDrive\Escritorio\bytesharkwinform-master\byteSharWinForm\obj\Debug\net6.0-windows\byteSharWinForm.Forms.Transference.resources
+C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\obj\Debug\net6.0-windows\byteSharWinForm.Dashboard.resources
+C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\obj\Debug\net6.0-windows\byteSharWinForm.Forms.Balance.resources
+C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\obj\Debug\net6.0-windows\byteSharWinForm.Forms.Transference.resources
+C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\obj\Debug\net6.0-windows\byteSharWinForm.Loader.resources
+C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\obj\Debug\net6.0-windows\byteSharWinForm.Properties.Resources.resources
+C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\byteSharWinForm\obj\Debug\net6.0-windows\byteSharWinForm.Form2.resources

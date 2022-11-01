@@ -15,9 +15,9 @@ namespace BE.entities
         public string password { get; set; } = string.Empty;
         public int dni { get; set; }
         public int celphone { get; set; }
-        public string token { get; set; } = string.Empty;
         public int saldo { get; set; }
         public int cbu { get; set; }
+        public int cardnumber { get; set; }
 
     }
 }

@@ -3,33 +3,42 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Data;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
-//using System.Reflection.Metadata;
 
 namespace DAL
 {
     public class Validator
     {
-        public bool validateToken(string mail){
-            string response = "";
-            try { 
-                ConectionDB connect = ConectionDB.Instance;
+        public bool ValidateCBU(string cbu)
+        {
+            ConectionDB connect = ConectionDB.Instance;
+                string newcbu="";
+            try
+            {
                 SqlDataReader reader = null;
                 SqlCommand sqlCmd = new SqlCommand();
                 sqlCmd.CommandType = CommandType.Text;
-                sqlCmd.CommandText = $"SELECT * FROM users WHERE email = '{mail}'";
+                sqlCmd.CommandText = $"SELECT cbu FROM users WHERE cbu = '{cbu}'";
                 sqlCmd.Connection = connect.sqlConnection;
                 connect.OpenConnection();
                 reader = sqlCmd.ExecuteReader();
-                while (reader.Read()) { 
-                    response = reader.GetValue(3).ToString();
+                while (reader.Read())
+                {
+                    newcbu = reader.GetValue(0).ToString();
                 }
                 connect.CloseConnection();
-                return response != "" ? true : false;
+                if (newcbu != "")
+                {
+                    return true;
+                }
+                else {
+                    return false;
+                }
             }
-            catch(Exception ex) {
-                Console.WriteLine(ex.ToString());
+            catch
+            {
                 return false;
             }
         }
