@@ -28,7 +28,7 @@ siendo esto deposito de capital, tranferencia de capital y emicion de tarjeta de
 
 <div align="center">
 
-![](https://raw.githubusercontent.com/leanTate/bytesharkwinform/master/DOC%20Resources/diagramaCasosDeUso.png)
+![](https://raw.githubusercontent.com/leanTate/bytesharkwinform/master/DOC%20Resources/casos%20de%20uso.png)
 
 </div>
 
