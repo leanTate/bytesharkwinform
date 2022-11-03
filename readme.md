@@ -26,3 +26,9 @@ siendo esto deposito de capital, tranferencia de capital y emicion de tarjeta de
 
 ## Diagrama de Casos de Uso
 
+<div align="center">
+
+![](https://raw.githubusercontent.com/leanTate/bytesharkwinform/master/DOC%20Resources/diagramaCasosDeUso.png)
+
+</div>
+
