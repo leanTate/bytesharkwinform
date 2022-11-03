@@ -1,6 +1,11 @@
 # Documentacion Byteshark
+<div align="center">
 
-![](https://raw.githubusercontent.com/leanTate/bytesharkwinform/master/byteSharWinForm/Resources/icon.png)
+![](https://raw.githubusercontent.com/leanTate/bytesharkwinform/master/byteSharWinForm/Resources/icon.ico)
+
+</div>
+
+## Integrantes
 
 - Leandro Tateossian
 - Lautaro Mardyks
@@ -19,5 +24,5 @@ nuestro sistema se enfocara en el manejo de capital, pudiendo con el mismo reliz
 nuestro sistema se enfoca en las tareas principales de un banco sin la necesidad de tener que acceder presencialmente a uno.
 siendo esto deposito de capital, tranferencia de capital y emicion de tarjeta de credito prepaga es decir que para realizar una compra debe contar previamente con fondos.
 
-## Requisitos No Funcionales
+## Diagrama de Casos de Uso
 
