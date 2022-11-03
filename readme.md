@@ -32,3 +32,15 @@ siendo esto deposito de capital, tranferencia de capital y emicion de tarjeta de
 
 </div>
 
+## Espesificaciones de Casos de Uso
+
+<div align="center">
+
+![](https://raw.githubusercontent.com/leanTate/bytesharkwinform/master/DOC%20Resources/Espesificaciones/Espesificacion%20CU%2001.png)
+
+![](https://raw.githubusercontent.com/leanTate/bytesharkwinform/master/DOC%20Resources/Espesificaciones/Espesificacion%20CU%2002.png)
+
+</div>
+
+
+
