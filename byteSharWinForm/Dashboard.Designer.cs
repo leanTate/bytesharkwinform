@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.btnDeposit = new FontAwesome.Sharp.IconButton();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.btnLogout = new FontAwesome.Sharp.IconButton();
             this.btnBalance = new FontAwesome.Sharp.IconButton();
@@ -46,6 +47,7 @@
             this.lblTime = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.btnSettings = new FontAwesome.Sharp.IconButton();
             this.panelMenu.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnHome)).BeginInit();
@@ -57,6 +59,8 @@
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(50)))), ((int)(((byte)(60)))));
+            this.panelMenu.Controls.Add(this.btnSettings);
+            this.panelMenu.Controls.Add(this.btnDeposit);
             this.panelMenu.Controls.Add(this.iconButton1);
             this.panelMenu.Controls.Add(this.btnLogout);
             this.panelMenu.Controls.Add(this.btnBalance);
@@ -68,9 +72,30 @@
             this.panelMenu.Size = new System.Drawing.Size(140, 530);
             this.panelMenu.TabIndex = 0;
             // 
+            // btnDeposit
+            // 
+            this.btnDeposit.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDeposit.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(50)))), ((int)(((byte)(60)))));
+            this.btnDeposit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeposit.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnDeposit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(10)))));
+            this.btnDeposit.IconChar = FontAwesome.Sharp.IconChar.MoneyBillTrendUp;
+            this.btnDeposit.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(10)))));
+            this.btnDeposit.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnDeposit.IconSize = 36;
+            this.btnDeposit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDeposit.Location = new System.Drawing.Point(0, 131);
+            this.btnDeposit.Name = "btnDeposit";
+            this.btnDeposit.Size = new System.Drawing.Size(140, 45);
+            this.btnDeposit.TabIndex = 8;
+            this.btnDeposit.Text = "Deposit";
+            this.btnDeposit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDeposit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnDeposit.UseVisualStyleBackColor = true;
+            this.btnDeposit.Click += new System.EventHandler(this.btnDeposit_Click);
+            // 
             // iconButton1
             // 
-            this.iconButton1.Dock = System.Windows.Forms.DockStyle.Top;
             this.iconButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(50)))), ((int)(((byte)(60)))));
             this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -78,12 +103,12 @@
             this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Calculator;
             this.iconButton1.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(10)))));
             this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton1.IconSize = 36;
+            this.iconButton1.IconSize = 32;
             this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.Location = new System.Drawing.Point(0, 176);
+            this.iconButton1.Location = new System.Drawing.Point(0, 223);
             this.iconButton1.Name = "iconButton1";
             this.iconButton1.Size = new System.Drawing.Size(140, 44);
-            this.iconButton1.TabIndex = 7;
+            this.iconButton1.TabIndex = 9;
             this.iconButton1.Text = "Calculator";
             this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -114,7 +139,6 @@
             // 
             // btnBalance
             // 
-            this.btnBalance.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnBalance.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(50)))), ((int)(((byte)(60)))));
             this.btnBalance.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBalance.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -124,10 +148,10 @@
             this.btnBalance.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnBalance.IconSize = 36;
             this.btnBalance.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBalance.Location = new System.Drawing.Point(0, 131);
+            this.btnBalance.Location = new System.Drawing.Point(0, 175);
             this.btnBalance.Name = "btnBalance";
             this.btnBalance.Size = new System.Drawing.Size(140, 45);
-            this.btnBalance.TabIndex = 5;
+            this.btnBalance.TabIndex = 10;
             this.btnBalance.Text = "Balance";
             this.btnBalance.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBalance.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -276,6 +300,28 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // btnSettings
+            // 
+            this.btnSettings.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btnSettings.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(50)))), ((int)(((byte)(60)))));
+            this.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSettings.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnSettings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(10)))));
+            this.btnSettings.IconChar = FontAwesome.Sharp.IconChar.UserAstronaut;
+            this.btnSettings.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(10)))));
+            this.btnSettings.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnSettings.IconSize = 32;
+            this.btnSettings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSettings.Location = new System.Drawing.Point(0, 441);
+            this.btnSettings.Name = "btnSettings";
+            this.btnSettings.Size = new System.Drawing.Size(140, 44);
+            this.btnSettings.TabIndex = 11;
+            this.btnSettings.Text = "User Settings";
+            this.btnSettings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSettings.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnSettings.UseVisualStyleBackColor = true;
+            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -319,5 +365,7 @@
         private FontAwesome.Sharp.IconButton iconCurrentChildForm;
         private Label lblName;
         private FontAwesome.Sharp.IconButton iconButton1;
+        private FontAwesome.Sharp.IconButton btnDeposit;
+        private FontAwesome.Sharp.IconButton btnSettings;
     }
 }

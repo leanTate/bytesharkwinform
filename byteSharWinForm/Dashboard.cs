@@ -202,8 +202,20 @@ namespace byteSharWinForm
 
         private void iconButton1_Click(object sender, EventArgs e)
         {
+            ActivarBoton(sender, RGBColors.color3);
             HomeController actions = new();
             actions.OpenCalculator();
+        }
+
+        private void btnDeposit_Click(object sender, EventArgs e)
+        {
+            ActivarBoton(sender, RGBColors.color3);
+            OpenChildForm(new Deposit(user));
+        }
+
+        private void btnSettings_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

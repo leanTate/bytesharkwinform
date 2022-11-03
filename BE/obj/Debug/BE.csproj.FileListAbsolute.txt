@@ -10,3 +10,9 @@ C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\BE\obj\Debug\BE.csproj.A
 C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
 C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\BE\obj\Debug\BE.dll
 C:\Users\lean\OneDrive\Documents\repos\bytesharkwinform\BE\obj\Debug\BE.pdb
+C:\Users\lauta\OneDrive\Escritorio\bytesharkwinform\BE\bin\Debug\BE.dll
+C:\Users\lauta\OneDrive\Escritorio\bytesharkwinform\BE\bin\Debug\BE.pdb
+C:\Users\lauta\OneDrive\Escritorio\bytesharkwinform\BE\obj\Debug\BE.csproj.AssemblyReference.cache
+C:\Users\lauta\OneDrive\Escritorio\bytesharkwinform\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\lauta\OneDrive\Escritorio\bytesharkwinform\BE\obj\Debug\BE.dll
+C:\Users\lauta\OneDrive\Escritorio\bytesharkwinform\BE\obj\Debug\BE.pdb
