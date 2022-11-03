@@ -1,5 +1,7 @@
 # Documentacion Byteshark
 
+!()["https://raw.githubusercontent.com/leanTate/bytesharkwinform/master/byteSharWinForm/Resources/icon.png"]
+
 - Leandro Tateossian
 - Lautaro Mardyks
 - Juan Miguel Garcia Carballo
