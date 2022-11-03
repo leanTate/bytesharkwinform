@@ -40,6 +40,16 @@ siendo esto deposito de capital, tranferencia de capital y emicion de tarjeta de
 
 ![](https://raw.githubusercontent.com/leanTate/bytesharkwinform/master/DOC%20Resources/Espesificaciones/Espesificacion%20CU%2002.png)
 
+![](https://raw.githubusercontent.com/leanTate/bytesharkwinform/master/DOC%20Resources/Espesificaciones/Espesificacion%20CU%2003.png)
+
+![](https://raw.githubusercontent.com/leanTate/bytesharkwinform/master/DOC%20Resources/Espesificaciones/Espesificacion%20CU%2004.png)
+
+![](https://raw.githubusercontent.com/leanTate/bytesharkwinform/master/DOC%20Resources/Espesificaciones/Espesificacion%20CU%2005.png)
+
+![](https://raw.githubusercontent.com/leanTate/bytesharkwinform/master/DOC%20Resources/Espesificaciones/Espesificacion%20CU%2006.png)
+
+![](https://raw.githubusercontent.com/leanTate/bytesharkwinform/master/DOC%20Resources/Espesificaciones/Espesificacion%20CU%2007.png)
+
 </div>
 
 
