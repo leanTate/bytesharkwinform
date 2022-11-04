@@ -50,7 +50,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(836, 447);
+            this.panel1.Size = new System.Drawing.Size(1145, 572);
             this.panel1.TabIndex = 0;
             // 
             // label2
@@ -58,7 +58,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(50)))));
-            this.label2.Location = new System.Drawing.Point(169, 225);
+            this.label2.Location = new System.Drawing.Point(311, 283);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 21);
             this.label2.TabIndex = 21;
@@ -69,7 +69,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(50)))));
-            this.label1.Location = new System.Drawing.Point(197, 164);
+            this.label1.Location = new System.Drawing.Point(339, 222);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 21);
             this.label1.TabIndex = 20;
@@ -82,7 +82,7 @@
             this.amount.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.amount.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.amount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(50)))));
-            this.amount.Location = new System.Drawing.Point(244, 204);
+            this.amount.Location = new System.Drawing.Point(386, 262);
             this.amount.Name = "amount";
             this.amount.Size = new System.Drawing.Size(390, 50);
             this.amount.TabIndex = 19;
@@ -98,7 +98,7 @@
             this.LoginBtn.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(10)))));
             this.LoginBtn.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.LoginBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(38)))), ((int)(((byte)(44)))));
-            this.LoginBtn.Location = new System.Drawing.Point(326, 270);
+            this.LoginBtn.Location = new System.Drawing.Point(468, 328);
             this.LoginBtn.Name = "LoginBtn";
             this.LoginBtn.Size = new System.Drawing.Size(224, 45);
             this.LoginBtn.TabIndex = 17;
@@ -112,7 +112,7 @@
             this.destinatary.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.destinatary.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.destinatary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(50)))));
-            this.destinatary.Location = new System.Drawing.Point(244, 143);
+            this.destinatary.Location = new System.Drawing.Point(386, 201);
             this.destinatary.Name = "destinatary";
             this.destinatary.Size = new System.Drawing.Size(390, 50);
             this.destinatary.TabIndex = 1;
@@ -123,14 +123,14 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(836, 56);
+            this.panel2.Size = new System.Drawing.Size(1145, 56);
             this.panel2.TabIndex = 0;
             // 
             // Transference
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(836, 447);
+            this.ClientSize = new System.Drawing.Size(1145, 572);
             this.Controls.Add(this.panel1);
             this.Name = "Transference";
             this.Text = "Transference";

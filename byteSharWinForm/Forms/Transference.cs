@@ -20,8 +20,9 @@ namespace byteSharWinForm.Forms
         User user = new User();
         public Transference(User userd)
         {
+            HomeController actions = new();
             InitializeComponent();
-            user = userd;
+            user = actions.GetData(userd.mail);
         }
 
         private void LoginBtn_Click(object sender, EventArgs e)

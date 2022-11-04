@@ -42,3 +42,17 @@ C:\Users\lauta\OneDrive\Escritorio\bytesharkwinform\DAL\obj\Debug\DAL.csproj.Cor
 C:\Users\lauta\OneDrive\Escritorio\bytesharkwinform\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\lauta\OneDrive\Escritorio\bytesharkwinform\DAL\obj\Debug\DAL.dll
 C:\Users\lauta\OneDrive\Escritorio\bytesharkwinform\DAL\obj\Debug\DAL.pdb
+C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\DAL\bin\Debug\DAL.dll
+C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\DAL\bin\Debug\DAL.pdb
+C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\DAL\bin\Debug\BE.dll
+C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\DAL\bin\Debug\DotNetEnv.dll
+C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\DAL\bin\Debug\Sprache.dll
+C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\DAL\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\DAL\bin\Debug\BE.pdb
+C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\DAL\bin\Debug\Sprache.xml
+C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\DAL\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\DAL\obj\Debug\DAL.dll
+C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\DAL\obj\Debug\DAL.pdb

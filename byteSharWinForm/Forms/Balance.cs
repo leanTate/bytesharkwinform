@@ -30,6 +30,8 @@ namespace byteSharWinForm.Forms
             dgvtransferences.DataSource=actions.GetTransferences(usr.cbu,user.dni);
             dataGridView1.DataSource = null;
             dataGridView1.DataSource = actions.GetTransferencesForMe(usr.cbu, user.dni);
+            dataGridView2.DataSource = null;
+            dataGridView2.DataSource = actions.GetDeposits(usr.cbu);
         }
     }
 }

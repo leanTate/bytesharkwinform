@@ -30,6 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Balance));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.labelCBU = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dgvtransferences = new System.Windows.Forms.DataGridView();
@@ -45,6 +49,7 @@
             this.lblSaldo = new System.Windows.Forms.Label();
             this.lblBalance = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvtransferences)).BeginInit();
             this.panel4.SuspendLayout();
@@ -59,6 +64,10 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(44)))), ((int)(((byte)(56)))));
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.dataGridView2);
             this.panel1.Controls.Add(this.labelCBU);
             this.panel1.Controls.Add(this.dataGridView1);
             this.panel1.Controls.Add(this.dgvtransferences);
@@ -67,15 +76,60 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(836, 447);
+            this.panel1.Size = new System.Drawing.Size(1145, 572);
             this.panel1.TabIndex = 0;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(10)))));
+            this.label3.Location = new System.Drawing.Point(880, 266);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(153, 40);
+            this.label3.TabIndex = 18;
+            this.label3.Text = "Depositos";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(10)))));
+            this.label2.Location = new System.Drawing.Point(390, 266);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(346, 40);
+            this.label2.TabIndex = 17;
+            this.label2.Text = "Transferencias recibidas";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(10)))));
+            this.label1.Location = new System.Drawing.Point(21, 266);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(340, 40);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "Transferencias emitidas";
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dataGridView2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(50)))), ((int)(((byte)(60)))));
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.GridColor = System.Drawing.Color.White;
+            this.dataGridView2.Location = new System.Drawing.Point(772, 316);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowTemplate.Height = 25;
+            this.dataGridView2.Size = new System.Drawing.Size(361, 234);
+            this.dataGridView2.TabIndex = 15;
             // 
             // labelCBU
             // 
             this.labelCBU.AutoSize = true;
             this.labelCBU.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelCBU.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(10)))));
-            this.labelCBU.Location = new System.Drawing.Point(339, 181);
+            this.labelCBU.Location = new System.Drawing.Point(424, 74);
             this.labelCBU.Name = "labelCBU";
             this.labelCBU.Size = new System.Drawing.Size(75, 40);
             this.labelCBU.TabIndex = 14;
@@ -87,10 +141,10 @@
             this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(50)))), ((int)(((byte)(60)))));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.GridColor = System.Drawing.Color.White;
-            this.dataGridView1.Location = new System.Drawing.Point(431, 234);
+            this.dataGridView1.Location = new System.Drawing.Point(390, 316);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(361, 161);
+            this.dataGridView1.Size = new System.Drawing.Size(361, 234);
             this.dataGridView1.TabIndex = 3;
             // 
             // dgvtransferences
@@ -99,10 +153,10 @@
             this.dgvtransferences.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(50)))), ((int)(((byte)(60)))));
             this.dgvtransferences.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvtransferences.GridColor = System.Drawing.Color.White;
-            this.dgvtransferences.Location = new System.Drawing.Point(35, 234);
+            this.dgvtransferences.Location = new System.Drawing.Point(9, 316);
             this.dgvtransferences.Name = "dgvtransferences";
             this.dgvtransferences.RowTemplate.Height = 25;
-            this.dgvtransferences.Size = new System.Drawing.Size(361, 161);
+            this.dgvtransferences.Size = new System.Drawing.Size(361, 234);
             this.dgvtransferences.TabIndex = 2;
             // 
             // panel4
@@ -115,7 +169,7 @@
             this.panel4.Controls.Add(this.pictureBox5);
             this.panel4.Controls.Add(this.pictureBox4);
             this.panel4.Controls.Add(this.pictureBox3);
-            this.panel4.Location = new System.Drawing.Point(35, 22);
+            this.panel4.Location = new System.Drawing.Point(41, 44);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(275, 147);
             this.panel4.TabIndex = 1;
@@ -197,9 +251,9 @@
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(50)))), ((int)(((byte)(60)))));
             this.panel3.Controls.Add(this.lblSaldo);
             this.panel3.Controls.Add(this.lblBalance);
-            this.panel3.Location = new System.Drawing.Point(517, 22);
+            this.panel3.Location = new System.Drawing.Point(842, 47);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(275, 147);
+            this.panel3.Size = new System.Drawing.Size(263, 144);
             this.panel3.TabIndex = 0;
             // 
             // lblSaldo
@@ -228,12 +282,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(836, 447);
+            this.ClientSize = new System.Drawing.Size(1145, 572);
             this.Controls.Add(this.panel1);
             this.Name = "Balance";
             this.Text = "                 ";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvtransferences)).EndInit();
             this.panel4.ResumeLayout(false);
@@ -267,5 +322,8 @@
         private DataGridView dataGridView1;
         private Label label1;
         private Label labelCBU;
+        private Label label3;
+        private Label label2;
+        private DataGridView dataGridView2;
     }
 }

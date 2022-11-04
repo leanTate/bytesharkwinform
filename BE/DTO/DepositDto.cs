@@ -10,6 +10,6 @@ namespace BE.DTO
     {
         public int origin = 010;
         public int amount { get; set; }
-        public string destinatary { get; set; } = string.Empty;
+        public int destinatary { get; set; }
     }
 }

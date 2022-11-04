@@ -28,7 +28,7 @@ namespace byteSharWinForm.Forms
         private void LoginBtn_Click_1(object sender, EventArgs e)
         {
             DepositDto deposit = new();
-            deposit.destinatary = user.cbu.ToString();
+            deposit.destinatary = user.cbu;
             deposit.origin = user.cbu;
             deposit.amount = Convert.ToInt32(amount.Text);
             HomeController actions = new();

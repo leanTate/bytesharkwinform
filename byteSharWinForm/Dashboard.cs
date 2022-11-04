@@ -215,7 +215,8 @@ namespace byteSharWinForm
 
         private void btnSettings_Click(object sender, EventArgs e)
         {
-
+            ActivarBoton(sender, RGBColors.color3);
+            OpenChildForm(new UserSettings(user));
         }
     }
 }

@@ -9,6 +9,40 @@ namespace DAL
     public class UserDAO
     {
         ConectionDB connect = ConectionDB.Instance;
+
+        public bool updateData(DataTable tb, int dni)
+        {
+            try
+            {
+                SqlDataAdapter adapter = new SqlDataAdapter($"select * from Users where dni = {dni}", connect.sqlConnection);
+                SqlCommandBuilder builder = new SqlCommandBuilder(adapter);
+                adapter.UpdateCommand = builder.GetUpdateCommand();
+                adapter.Update(tb);
+                return true;
+            }
+            catch (Exception ex) {
+                Console.WriteLine(ex);
+                return false;
+            }
+        }
+
+        public DataTable GetUserIntable (int dni)
+        {
+            DataTable dt = new DataTable();
+                try
+                {
+                    connect.OpenConnection();
+                SqlCommand cmd = new SqlCommand($"select * from Users where dni = {dni}", connect.sqlConnection);
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    da.Fill(dt);
+                    connect.CloseConnection();
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+                return dt;
+        }
         public User getUser(string mail) {
             User user = new User();
             try

@@ -19,6 +19,9 @@
     <Compile Update="Forms\Transference.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\UserSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Loader.cs">
       <SubType>Form</SubType>
     </Compile>

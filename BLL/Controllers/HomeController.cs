@@ -10,7 +10,15 @@ namespace ByteCard.Controllers;
     public class HomeController 
     {
         Actions actions = new();
-        
+
+    public bool updateData(DataTable tb, int dni) {
+        UserDAO actions = new();
+        return actions.updateData(tb, dni);
+    }
+            public DataTable getUserinTable(int dni){
+            UserDAO actions = new();
+            return actions.GetUserIntable(dni);
+            }
         public bool Transaction(transactionDto request)
         {
         Validator validator = new();
@@ -38,6 +46,10 @@ namespace ByteCard.Controllers;
     {
         return actions.transferencesForMe(cbu, dni);
     }
+    public DataTable GetDeposits(int cbu) {
+        return actions.Deposits(cbu);
+    }
+    
     public void OpenCalculator()
         {
         string calc = "calc.exe";

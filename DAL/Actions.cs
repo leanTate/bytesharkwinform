@@ -13,6 +13,23 @@ namespace DAL
 {
     public class Actions
     {
+        public DataTable Deposits(int cbu)
+        {
+            try
+            {
+                ConectionDB connect = ConectionDB.Instance;
+                connect.OpenConnection();
+                SqlDataAdapter adapter = new SqlDataAdapter($"select operation,amount,(select username from users where cbu={cbu}) as receptor from Deposits as D inner join users as u on receptor=cbu where receptor={cbu};", connect.sqlConnection);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                return dt;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
         public DataTable transferencesForMe(int cbu, int dni)
         {
             try
@@ -94,7 +111,7 @@ namespace DAL
                 ConectionDB connect = ConectionDB.Instance;
                 SqlCommand sqlCmd = new SqlCommand();
                 sqlCmd.CommandType = CommandType.Text;
-                sqlCmd.CommandText = $"insert into transactions(cbu_emisor,valor,cbu_receptor) values('{req.origin}',{req.amount},'{req.destinatary}')";
+                sqlCmd.CommandText = $"insert into Deposits(operation,amount,receptor) values('Deposito',{req.amount},'{req.destinatary}')";
                 sqlCmd.Connection = connect.sqlConnection;
                 connect.OpenConnection();
                 sqlCmd.ExecuteNonQuery();
@@ -113,8 +130,10 @@ namespace DAL
             {
                 ConectionDB connect = ConectionDB.Instance;
                 SqlCommand sqlCmd = new SqlCommand();
-                sqlCmd.CommandType = CommandType.Text;
-                sqlCmd.CommandText = $"UPDATE users set saldo+={req.amount} where cbu={req.destinatary}";
+                sqlCmd.CommandType = CommandType.StoredProcedure;
+                sqlCmd.CommandText = $"Deposit";
+                sqlCmd.Parameters.AddWithValue("@amount", req.amount);
+                sqlCmd.Parameters.AddWithValue("@cbu", req.destinatary);
                 sqlCmd.Connection = connect.sqlConnection;
                 connect.OpenConnection();
                 sqlCmd.ExecuteNonQuery();

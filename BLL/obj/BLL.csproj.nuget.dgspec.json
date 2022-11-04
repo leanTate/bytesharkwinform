@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lauta\\OneDrive\\Escritorio\\bytesharkwinform\\BLL\\BLL.csproj": {}
+    "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lauta\\OneDrive\\Escritorio\\bytesharkwinform\\BE\\BE.csproj": {
+    "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\BE\\BE.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\lauta\\OneDrive\\Escritorio\\bytesharkwinform\\BE\\BE.csproj",
+        "projectUniqueName": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\BE\\BE.csproj",
         "projectName": "BE",
-        "projectPath": "C:\\Users\\lauta\\OneDrive\\Escritorio\\bytesharkwinform\\BE\\BE.csproj",
+        "projectPath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\BE\\BE.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -19,42 +19,43 @@
         "net472": {}
       }
     },
-    "C:\\Users\\lauta\\OneDrive\\Escritorio\\bytesharkwinform\\BLL\\BLL.csproj": {
+    "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lauta\\OneDrive\\Escritorio\\bytesharkwinform\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\lauta\\OneDrive\\Escritorio\\bytesharkwinform\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\lauta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lauta\\OneDrive\\Escritorio\\bytesharkwinform\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\lean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lauta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lean\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows7.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\lauta\\OneDrive\\Escritorio\\bytesharkwinform\\BE\\BE.csproj": {
-                "projectPath": "C:\\Users\\lauta\\OneDrive\\Escritorio\\bytesharkwinform\\BE\\BE.csproj"
+              "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\BE\\BE.csproj": {
+                "projectPath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\BE\\BE.csproj"
               },
-              "C:\\Users\\lauta\\OneDrive\\Escritorio\\bytesharkwinform\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\lauta\\OneDrive\\Escritorio\\bytesharkwinform\\DAL\\DAL.csproj"
+              "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\DAL\\DAL.csproj"
               },
-              "C:\\Users\\lauta\\OneDrive\\Escritorio\\bytesharkwinform\\Security\\Security.csproj": {
-                "projectPath": "C:\\Users\\lauta\\OneDrive\\Escritorio\\bytesharkwinform\\Security\\Security.csproj"
+              "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\Security\\Security.csproj": {
+                "projectPath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\Security\\Security.csproj"
               }
             }
           }
@@ -87,20 +88,20 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\lauta\\OneDrive\\Escritorio\\bytesharkwinform\\DAL\\DAL.csproj": {
+    "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\DAL\\DAL.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\lauta\\OneDrive\\Escritorio\\bytesharkwinform\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\lauta\\OneDrive\\Escritorio\\bytesharkwinform\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\DAL\\DAL.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\lauta\\OneDrive\\Escritorio\\bytesharkwinform\\BE\\BE.csproj": {
-                "projectPath": "C:\\Users\\lauta\\OneDrive\\Escritorio\\bytesharkwinform\\BE\\BE.csproj"
+              "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\BE\\BE.csproj": {
+                "projectPath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\BE\\BE.csproj"
               }
             }
           }
@@ -110,11 +111,11 @@
         "net472": {}
       }
     },
-    "C:\\Users\\lauta\\OneDrive\\Escritorio\\bytesharkwinform\\Security\\Security.csproj": {
+    "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\Security\\Security.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\lauta\\OneDrive\\Escritorio\\bytesharkwinform\\Security\\Security.csproj",
+        "projectUniqueName": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\Security\\Security.csproj",
         "projectName": "Security",
-        "projectPath": "C:\\Users\\lauta\\OneDrive\\Escritorio\\bytesharkwinform\\Security\\Security.csproj",
+        "projectPath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\Security\\Security.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
