@@ -10,6 +10,7 @@ namespace byteSharWinForm
         public Form1()
         {
             InitializeComponent();
+            passwordtxt.PasswordChar = '*';
         }
 
         private void LoginBtn_Click(object sender, EventArgs e)

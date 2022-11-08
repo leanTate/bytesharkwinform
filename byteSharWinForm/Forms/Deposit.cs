@@ -33,7 +33,7 @@ namespace byteSharWinForm.Forms
             deposit.amount = Convert.ToInt32(amount.Text);
             HomeController actions = new();
             bool log = actions.Deposit(deposit);
-            MessageBox.Show(log.ToString());
+            MessageBox.Show(log ? "el depocito se realizo correctamente" : "el depocito no se realizo correctamente");
 
         }
     }

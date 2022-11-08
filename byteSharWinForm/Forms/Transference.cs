@@ -34,7 +34,7 @@ namespace byteSharWinForm.Forms
             transaction.amount = Convert.ToInt32(amount.Text);
             HomeController actions = new();
             bool log = actions.Transaction(transaction);
-            MessageBox.Show(log.ToString());
+            MessageBox.Show(log ? "la transferencia se realizo correctamente" : "la transferencia no se realizo correctamente");
         }
     }
 }
