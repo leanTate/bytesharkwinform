@@ -271,3 +271,6 @@ C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\byteSharWinForm\obj\De
 C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\byteSharWinForm\obj\Debug\net6.0-windows\byteSharWinForm.genruntimeconfig.cache
 C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\byteSharWinForm\obj\Debug\net6.0-windows\ref\byteSharWinForm.dll
 C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\byteSharWinForm\obj\Debug\net6.0-windows\byteSharWinForm.Forms.UserSettings.resources
+C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\AForge.dll
+C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\AForge.Video.dll
+C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\AForge.Video.DirectShow.dll

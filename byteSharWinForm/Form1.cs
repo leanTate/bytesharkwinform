@@ -1,4 +1,5 @@
 using BLL;
+using BLL.Controllers;
 using BE.DTO;
 using ByteCard.Controllers;
 using System.Runtime.InteropServices;
@@ -7,33 +8,40 @@ namespace byteSharWinForm
 {
     public partial class Form1 : Form
     {
+        CamController camController;
         public Form1()
         {
             InitializeComponent();
+            camController = new CamController(pictureBox3, pictureBox2,fileSystemWatcher1);
             passwordtxt.PasswordChar = '*';
+            camController.LoadDispositives();
+            camController.init();
         }
 
         private void LoginBtn_Click(object sender, EventArgs e)
         {
-            AuthController auth = new AuthController();
-            LoginDto log = new LoginDto();
-            log.mail = emailtxt.Text;
-            log.password = passwordtxt.Text;
-            UserDto myusr=auth.Login(log);
-            if (myusr!=null)
+            if (emailtxt.Text == "" || passwordtxt.Text == "")
             {
-                Loader loaderFrm = new Loader(myusr);
-                loaderFrm.Show();
-                this.Hide();
+                MessageBox.Show("Complete los campos");
             }
-            else
-            {
-                MessageBox.Show("Usuario o contraseña incorrectos");
+            else {
+                AuthController auth = new AuthController();
+                LoginDto log = new LoginDto();
+                log.mail = emailtxt.Text;
+                log.password = passwordtxt.Text;
+                camController.TakePhoto(log);
+                UserDto myusr = auth.Login(log);
+                if (myusr != null)
+                {
+                    Loader loaderFrm = new Loader(myusr);
+                    loaderFrm.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Usuario o contraseña incorrectos");
+                }
             }
-
-            //Loader loaderFrm = new Loader();
-            //loaderFrm.Show();
-            //this.Hide();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -64,6 +72,16 @@ namespace byteSharWinForm
             Form2 newform = new Form2();
             newform.Show();
             this.Hide();
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            camController.CloseCam();
+        }
+
+        private void fileSystemWatcher1_Created(object sender, FileSystemEventArgs e)
+        {
+            camController.GetFiles();
         }
     }
 }
