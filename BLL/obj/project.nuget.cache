@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/Ah2z2dfzAZi63HFoarKNX/zQV14Pa4k9zvbhEVKcWMfOjLpG+Tfa25Y1sPTLptp9qqlLq3oAi5JcgOon52IDQ==",
+  "dgSpecHash": "XEyUCmXiHFXaKBjnVnMuRfuhf82tKxoe9rhMhgRc1TfbUmtMYvPC/8nPeVgf2uASBMKuZRJEEMDKhDjpwuUcRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\l\\bytesharkwinform\\BLL\\BLL.csproj",
+  "projectFilePath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\ssa\\bytesharkwinform\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lean\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
     "C:\\Users\\lean\\.nuget\\packages\\aforge.video\\2.2.5\\aforge.video.2.2.5.nupkg.sha512",

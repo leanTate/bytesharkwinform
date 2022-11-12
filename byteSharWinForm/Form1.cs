@@ -15,7 +15,6 @@ namespace byteSharWinForm
             camController = new CamController(pictureBox3, pictureBox2,fileSystemWatcher1);
             passwordtxt.PasswordChar = '*';
             camController.LoadDispositives();
-            camController.init();
         }
 
         private void LoginBtn_Click(object sender, EventArgs e)

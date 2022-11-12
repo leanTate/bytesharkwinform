@@ -32,13 +32,14 @@ namespace BLL.Controllers
 
         public void LoadDispositives() {
             myDispositives = new FilterInfoCollection(FilterCategory.VideoInputDevice);
-            if (myDispositives.Count == 0)
+            if (myDispositives.Count > 0)
             {
-                areCameras = false;
+                areCameras = true;
+                init();
             }
             else
             {
-                areCameras = true;
+                areCameras = false;
             }
         }
         public void CloseCam()
@@ -49,7 +50,7 @@ namespace BLL.Controllers
                 myVideoSource = null;
             }
         }
-        public void init()
+        private void init()
         {
             CloseCam();
             string nombre = myDispositives[0].MonikerString;

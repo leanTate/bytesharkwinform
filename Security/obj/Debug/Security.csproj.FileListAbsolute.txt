@@ -16,3 +16,9 @@ C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\Security\obj\Debug\Sec
 C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\Security\obj\Debug\Security.csproj.CoreCompileInputs.cache
 C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\Security\obj\Debug\Security.dll
 C:\Users\lean\OneDrive\Documents\repos\l\bytesharkwinform\Security\obj\Debug\Security.pdb
+C:\Users\lean\OneDrive\Documents\repos\ssa\bytesharkwinform\Security\bin\Debug\Security.dll
+C:\Users\lean\OneDrive\Documents\repos\ssa\bytesharkwinform\Security\bin\Debug\Security.pdb
+C:\Users\lean\OneDrive\Documents\repos\ssa\bytesharkwinform\Security\obj\Debug\Security.csproj.AssemblyReference.cache
+C:\Users\lean\OneDrive\Documents\repos\ssa\bytesharkwinform\Security\obj\Debug\Security.csproj.CoreCompileInputs.cache
+C:\Users\lean\OneDrive\Documents\repos\ssa\bytesharkwinform\Security\obj\Debug\Security.dll
+C:\Users\lean\OneDrive\Documents\repos\ssa\bytesharkwinform\Security\obj\Debug\Security.pdb
