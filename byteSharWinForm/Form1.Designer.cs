@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.emailtxt = new System.Windows.Forms.TextBox();
             this.passwordtxt = new System.Windows.Forms.TextBox();
             this.LoginBtn = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -39,23 +38,13 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
+            this.checkboxl = new System.Windows.Forms.CheckBox();
+            this.emailtxt = new byteSharWinForm.Email();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // emailtxt
-            // 
-            this.emailtxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(51)))), ((int)(((byte)(59)))));
-            this.emailtxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.emailtxt.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.emailtxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(50)))));
-            this.emailtxt.Location = new System.Drawing.Point(80, 76);
-            this.emailtxt.Name = "emailtxt";
-            this.emailtxt.Size = new System.Drawing.Size(308, 33);
-            this.emailtxt.TabIndex = 0;
-            this.emailtxt.TextChanged += new System.EventHandler(this.emailtxt_TextChanged);
             // 
             // passwordtxt
             // 
@@ -161,12 +150,36 @@
             this.fileSystemWatcher1.SynchronizingObject = this;
             this.fileSystemWatcher1.Created += new System.IO.FileSystemEventHandler(this.fileSystemWatcher1_Created);
             // 
+            // checkboxl
+            // 
+            this.checkboxl.AutoSize = true;
+            this.checkboxl.Location = new System.Drawing.Point(12, 354);
+            this.checkboxl.Name = "checkboxl";
+            this.checkboxl.Size = new System.Drawing.Size(72, 19);
+            this.checkboxl.TabIndex = 9;
+            this.checkboxl.Text = "Spanish?";
+            this.checkboxl.UseVisualStyleBackColor = true;
+            this.checkboxl.CheckedChanged += new System.EventHandler(this.lenguage_CheckedChanged);
+            // 
+            // emailtxt
+            // 
+            this.emailtxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(51)))), ((int)(((byte)(59)))));
+            this.emailtxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.emailtxt.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.emailtxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(50)))));
+            this.emailtxt.Location = new System.Drawing.Point(80, 76);
+            this.emailtxt.Name = "emailtxt";
+            this.emailtxt.Size = new System.Drawing.Size(308, 33);
+            this.emailtxt.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(38)))), ((int)(((byte)(44)))));
             this.ClientSize = new System.Drawing.Size(816, 385);
+            this.Controls.Add(this.emailtxt);
+            this.Controls.Add(this.checkboxl);
             this.Controls.Add(this.LoginBtn);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -175,7 +188,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.passwordtxt);
-            this.Controls.Add(this.emailtxt);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -193,8 +205,6 @@
         }
 
         #endregion
-
-        private TextBox emailtxt;
         private TextBox passwordtxt;
         private Guna.UI2.WinForms.Guna2Button LoginBtn;
         private Label label1;
@@ -204,5 +214,7 @@
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
         private FileSystemWatcher fileSystemWatcher1;
+        private CheckBox checkboxl;
+        private Email emailtxt;
     }
 }

@@ -345,3 +345,8 @@ C:\Users\lean\OneDrive\Documents\repos\ssa\bytesharkwinform\byteSharWinForm\obj\
 C:\Users\lean\OneDrive\Documents\repos\ssa\bytesharkwinform\byteSharWinForm\obj\Debug\net6.0-windows\byteSharWinForm.pdb
 C:\Users\lean\OneDrive\Documents\repos\ssa\bytesharkwinform\byteSharWinForm\obj\Debug\net6.0-windows\byteSharWinForm.genruntimeconfig.cache
 C:\Users\lean\OneDrive\Documents\repos\ssa\bytesharkwinform\byteSharWinForm\obj\Debug\net6.0-windows\ref\byteSharWinForm.dll
+C:\Users\lean\OneDrive\Documents\repos\ssa\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\Lenguage.dll
+C:\Users\lean\OneDrive\Documents\repos\ssa\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\Lenguage.pdb
+C:\Users\lean\OneDrive\Documents\repos\ssa\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\es-AR\Lenguage.resources.dll
+C:\Users\lean\OneDrive\Documents\repos\ssa\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\en-US\Lenguage.resources.dll
+C:\Users\lean\OneDrive\Documents\repos\ssa\bytesharkwinform\byteSharWinForm\obj\Debug\net6.0-windows\byteSharWinForm.Email.resources

@@ -14,6 +14,7 @@
           "BLL": "1.0.0",
           "FontAwesome.Sharp": "6.1.1",
           "Guna.UI2.WinForms": "2.0.3.5",
+          "Lenguage": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.0",
           "Security": "1.0.0",
           "System.Data.SqlClient": "4.8.3"
@@ -525,6 +526,19 @@
           "DAL.dll": {}
         }
       },
+      "Lenguage/1.0.0": {
+        "runtime": {
+          "Lenguage.dll": {}
+        },
+        "resources": {
+          "en-US/Lenguage.resources.dll": {
+            "locale": "en-US"
+          },
+          "es-AR/Lenguage.resources.dll": {
+            "locale": "es-AR"
+          }
+        }
+      },
       "Security/1.0.0": {
         "runtime": {
           "Security.dll": {}
@@ -948,6 +962,11 @@
       "sha512": ""
     },
     "DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lenguage/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

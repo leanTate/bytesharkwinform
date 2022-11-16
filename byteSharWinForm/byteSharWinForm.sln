@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "byteSharWinForm", "byteShar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE", "..\BE\BE.csproj", "{2C6E1C08-794D-4223-A6A7-9EC4098DB1F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "..\BLL\BLL.csproj", "{DC4C9001-A74A-497A-B8A7-206768F59212}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL", "..\BLL\BLL.csproj", "{DC4C9001-A74A-497A-B8A7-206768F59212}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "..\DAL\DAL.csproj", "{38AEDE40-1FE9-4AEA-8CE7-F50BBFD41018}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Security", "..\Security\Security.csproj", "{2B4149ED-0802-4296-A356-D97AD717B8B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lenguage", "..\Lenguage\Lenguage.csproj", "{12FDECCD-E0DE-4C1F-9D8C-3CDF7E607825}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{2B4149ED-0802-4296-A356-D97AD717B8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B4149ED-0802-4296-A356-D97AD717B8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B4149ED-0802-4296-A356-D97AD717B8B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12FDECCD-E0DE-4C1F-9D8C-3CDF7E607825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12FDECCD-E0DE-4C1F-9D8C-3CDF7E607825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12FDECCD-E0DE-4C1F-9D8C-3CDF7E607825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12FDECCD-E0DE-4C1F-9D8C-3CDF7E607825}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

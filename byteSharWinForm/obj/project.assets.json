@@ -937,6 +937,16 @@
           "bin/placeholder/DAL.dll": {}
         }
       },
+      "Lenguage/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Lenguage.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lenguage.dll": {}
+        }
+      },
       "Security/1.0.0": {
         "type": "project",
         "compile": {
@@ -2960,6 +2970,11 @@
       "path": "../DAL/DAL.csproj",
       "msbuildProject": "../DAL/DAL.csproj"
     },
+    "Lenguage/1.0.0": {
+      "type": "project",
+      "path": "../Lenguage/Lenguage.csproj",
+      "msbuildProject": "../Lenguage/Lenguage.csproj"
+    },
     "Security/1.0.0": {
       "type": "project",
       "path": "../Security/Security.csproj",
@@ -2974,6 +2989,7 @@
       "BLL >= 1.0.0",
       "FontAwesome.Sharp >= 6.1.1",
       "Guna.UI2.WinForms >= 2.0.3.5",
+      "Lenguage >= 1.0.0",
       "Microsoft.Data.SqlClient >= 5.0.0",
       "Security >= 1.0.0",
       "System.Data.SqlClient >= 4.8.3"
@@ -3017,6 +3033,9 @@
             },
             "C:\\Users\\lean\\OneDrive\\Documents\\repos\\ssa\\bytesharkwinform\\BLL\\BLL.csproj": {
               "projectPath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\ssa\\bytesharkwinform\\BLL\\BLL.csproj"
+            },
+            "C:\\Users\\lean\\OneDrive\\Documents\\repos\\ssa\\bytesharkwinform\\Lenguage\\Lenguage.csproj": {
+              "projectPath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\ssa\\bytesharkwinform\\Lenguage\\Lenguage.csproj"
             },
             "C:\\Users\\lean\\OneDrive\\Documents\\repos\\ssa\\bytesharkwinform\\Security\\Security.csproj": {
               "projectPath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\ssa\\bytesharkwinform\\Security\\Security.csproj"

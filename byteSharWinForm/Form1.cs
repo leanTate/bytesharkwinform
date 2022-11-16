@@ -3,6 +3,7 @@ using BLL.Controllers;
 using BE.DTO;
 using ByteCard.Controllers;
 using System.Runtime.InteropServices;
+using Lenguage;
 
 namespace byteSharWinForm
 {
@@ -17,9 +18,24 @@ namespace byteSharWinForm
             camController.LoadDispositives();
         }
 
+        private void getLanguage() {
+            if (checkboxl.Checked == true)
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("es-AR");
+            }
+            else {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
+            }
+            label1.Text = res.email;
+            label2.Text = res.pasword;
+            LoginBtn.Text = res.signin;
+            guna2Button1.Text = res.register;
+            this.Refresh();
+        }
+
         private void LoginBtn_Click(object sender, EventArgs e)
         {
-            if (emailtxt.Text == "" || passwordtxt.Text == "")
+            if (emailtxt.Text == "" || emailtxt.isEmail() == false || passwordtxt.Text == "")
             {
                 MessageBox.Show("Complete los campos");
             }
@@ -81,6 +97,11 @@ namespace byteSharWinForm
         private void fileSystemWatcher1_Created(object sender, FileSystemEventArgs e)
         {
             camController.GetFiles();
+        }
+
+        private void lenguage_CheckedChanged(object sender, EventArgs e)
+        {
+            getLanguage();
         }
     }
 }
