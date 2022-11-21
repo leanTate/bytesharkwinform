@@ -1,0 +1,6 @@
+C:\Users\Juanm\bytesharkwinform\Utils\bin\Debug\Utils.dll
+C:\Users\Juanm\bytesharkwinform\Utils\bin\Debug\Utils.pdb
+C:\Users\Juanm\bytesharkwinform\Utils\obj\Debug\Utils.csproj.AssemblyReference.cache
+C:\Users\Juanm\bytesharkwinform\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache
+C:\Users\Juanm\bytesharkwinform\Utils\obj\Debug\Utils.dll
+C:\Users\Juanm\bytesharkwinform\Utils\obj\Debug\Utils.pdb
