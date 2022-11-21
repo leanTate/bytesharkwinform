@@ -13,12 +13,14 @@ using ByteCard.Controllers;
 using BE.DTO;
 using BE.entities;
 using Lenguage;
+using Utils;
 
 namespace byteSharWinForm.Forms
 {
     public partial class Deposit : Form
     {
         User user = new User();
+        EventLogger logger = new EventLogger();
         public Deposit(User userp)
         {
             InitializeComponent();
@@ -36,6 +38,7 @@ namespace byteSharWinForm.Forms
             deposit.amount = Convert.ToInt32(amount.Text);
             HomeController actions = new();
             bool log = actions.Deposit(deposit);
+            logger.Log($"{user.userName} realizo un deposito de ${deposit.amount}");
             MessageBox.Show(log ? res.dok : res.dnotok);
 
         }

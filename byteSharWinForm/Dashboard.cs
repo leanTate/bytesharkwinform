@@ -16,6 +16,7 @@ using BE.DTO;
 using DAL;
 using ByteCard.Controllers;
 using Lenguage;
+using Utils;
 
 namespace byteSharWinForm
 {
@@ -27,6 +28,7 @@ namespace byteSharWinForm
         private Form currentChildForm;
         public UserDto userd;
         public User user;
+        EventLogger logger = new EventLogger();
 
 
         public Dashboard(UserDto usr)
@@ -161,6 +163,7 @@ namespace byteSharWinForm
                 Form1 loginFrm = new Form1();
                 loginFrm.Show();
                 this.Close();
+                logger.Log($"{user.userName} {user.lastName} ha cerrado sesion!");
             }
         }
 
