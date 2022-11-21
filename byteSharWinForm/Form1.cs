@@ -57,6 +57,7 @@ namespace byteSharWinForm
                 camController.TakePhoto(log);
                 camController.CloseCam();
                 UserDto myusr = auth.Login(log);
+                RegistryManager.SetRegistryUsername(myusr.userName);
                 logger.Log($"{log.mail} {DateTime.Now.ToString("hh.mm")} {DateTime.Now.ToLongDateString()}");
                 if (myusr != null)
                 {
