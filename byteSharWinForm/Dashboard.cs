@@ -15,6 +15,7 @@ using BE.entities;
 using BE.DTO;
 using DAL;
 using ByteCard.Controllers;
+using Lenguage;
 
 namespace byteSharWinForm
 {
@@ -42,7 +43,12 @@ namespace byteSharWinForm
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
             this.user = actions.GetData(usr.mail);
             lblName.Text = user.userName;
-            
+            btnBalance.Text = res.balance;
+            btnDeposit.Text = res.deposit;
+            btnTransference.Text = res.transference;
+            iconButton1.Text = res.calculator;
+            btnSettings.Text = res.usrSettings;
+            btnLogout.Text = res.logOut;
             timer1.Start();
         }
 
@@ -121,7 +127,7 @@ namespace byteSharWinForm
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Seguro que quiere salir del programa?", "Cerrar Aplicación", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            if (MessageBox.Show(res.closemessage, res.close, MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
                 Application.Exit();
             }
@@ -150,7 +156,7 @@ namespace byteSharWinForm
         {
             ActivarBoton(sender, RGBColors.color4);
 
-            if (MessageBox.Show("Seguro que quiere cerrar sesión?", "Cerrar Sesión", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            if (MessageBox.Show(res.closemessage, res.close, MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
                 Form1 loginFrm = new Form1();
                 loginFrm.Show();
@@ -197,7 +203,7 @@ namespace byteSharWinForm
             leftBorderBtn.Visible = false;
             iconCurrentChildForm.IconChar = IconChar.Home;
             iconCurrentChildForm.IconColor = RGBColors.color3 ;
-            lblTitleChildForm.Text = "Home";
+            lblTitleChildForm.Text = res.home;
         }
 
         private void iconButton1_Click(object sender, EventArgs e)

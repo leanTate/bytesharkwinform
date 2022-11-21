@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Lenguage;
 
 namespace byteSharWinForm.Forms
 {
@@ -20,6 +21,12 @@ namespace byteSharWinForm.Forms
         {
             HomeController actions = new();
             InitializeComponent();
+            nameL.Text = res.usr;
+            lastnameL.Text = res.lstName;
+            cellL.Text = res.cellphone;
+            mailL.Text = res.email;
+            SaveBtn.Text = res.save;
+            applybtn.Text = res.apply;
             usr = user;
             usertable = actions.getUserinTable(user.dni);
             nametxt.Text = usertable.Rows[0][1].ToString();
@@ -34,7 +41,7 @@ namespace byteSharWinForm.Forms
             usertable.Rows[0][2] = textBox1.Text;
             usertable.Rows[0][6] = textBox2.Text;
             usertable.Rows[0][3] = textBox3.Text;
-            MessageBox.Show("datos guardados de manera local, pulse aplicar para guardar en la base de datos");
+            MessageBox.Show(res.saveone);
             applybtn.Enabled = true;
         }
 
@@ -42,7 +49,7 @@ namespace byteSharWinForm.Forms
         {
             HomeController actions = new();
             actions.updateData(usertable, usr.dni);
-            MessageBox.Show("datos guardados en la base de datos");
+            MessageBox.Show(res.savetwo);
             applybtn.Enabled = false;
         }
     }

@@ -12,6 +12,7 @@ using System.Windows.Forms;
 using ByteCard.Controllers;
 using BE.DTO;
 using BE.entities;
+using Lenguage;
 
 namespace byteSharWinForm.Forms
 {
@@ -22,6 +23,8 @@ namespace byteSharWinForm.Forms
         {
             InitializeComponent();
             user = userp;
+            amountL.Text = res.amount;
+            DepositBtn.Text = res.deposit;
         }
 
 
@@ -33,7 +36,7 @@ namespace byteSharWinForm.Forms
             deposit.amount = Convert.ToInt32(amount.Text);
             HomeController actions = new();
             bool log = actions.Deposit(deposit);
-            MessageBox.Show(log ? "el depocito se realizo correctamente" : "el depocito no se realizo correctamente");
+            MessageBox.Show(log ? res.dok : res.dnotok);
 
         }
     }

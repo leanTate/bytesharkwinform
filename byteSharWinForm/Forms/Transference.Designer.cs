@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
+            this.amountL = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.amount = new System.Windows.Forms.TextBox();
-            this.LoginBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.TransferBtn = new Guna.UI2.WinForms.Guna2Button();
             this.destinatary = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
@@ -41,10 +41,10 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(44)))), ((int)(((byte)(56)))));
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.amountL);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.amount);
-            this.panel1.Controls.Add(this.LoginBtn);
+            this.panel1.Controls.Add(this.TransferBtn);
             this.panel1.Controls.Add(this.destinatary);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -53,16 +53,16 @@
             this.panel1.Size = new System.Drawing.Size(1145, 572);
             this.panel1.TabIndex = 0;
             // 
-            // label2
+            // amountL
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(50)))));
-            this.label2.Location = new System.Drawing.Point(311, 283);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 21);
-            this.label2.TabIndex = 21;
-            this.label2.Text = "Amount";
+            this.amountL.AutoSize = true;
+            this.amountL.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.amountL.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(50)))));
+            this.amountL.Location = new System.Drawing.Point(311, 283);
+            this.amountL.Name = "amountL";
+            this.amountL.Size = new System.Drawing.Size(69, 21);
+            this.amountL.TabIndex = 21;
+            this.amountL.Text = "Amount";
             // 
             // label1
             // 
@@ -87,23 +87,23 @@
             this.amount.Size = new System.Drawing.Size(390, 50);
             this.amount.TabIndex = 19;
             // 
-            // LoginBtn
+            // TransferBtn
             // 
-            this.LoginBtn.BorderRadius = 10;
-            this.LoginBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.LoginBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.LoginBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.LoginBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.LoginBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(50)))));
-            this.LoginBtn.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(10)))));
-            this.LoginBtn.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LoginBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(38)))), ((int)(((byte)(44)))));
-            this.LoginBtn.Location = new System.Drawing.Point(468, 328);
-            this.LoginBtn.Name = "LoginBtn";
-            this.LoginBtn.Size = new System.Drawing.Size(224, 45);
-            this.LoginBtn.TabIndex = 17;
-            this.LoginBtn.Text = "Transfer";
-            this.LoginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
+            this.TransferBtn.BorderRadius = 10;
+            this.TransferBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.TransferBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.TransferBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.TransferBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.TransferBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(50)))));
+            this.TransferBtn.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(10)))));
+            this.TransferBtn.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.TransferBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(38)))), ((int)(((byte)(44)))));
+            this.TransferBtn.Location = new System.Drawing.Point(468, 328);
+            this.TransferBtn.Name = "TransferBtn";
+            this.TransferBtn.Size = new System.Drawing.Size(224, 45);
+            this.TransferBtn.TabIndex = 17;
+            this.TransferBtn.Text = "Transfer";
+            this.TransferBtn.Click += new System.EventHandler(this.LoginBtn_Click);
             // 
             // destinatary
             // 
@@ -145,9 +145,9 @@
         private Panel panel1;
         private Panel panel2;
         private TextBox destinatary;
-        private Guna.UI2.WinForms.Guna2Button LoginBtn;
+        private Guna.UI2.WinForms.Guna2Button TransferBtn;
         private TextBox amount;
-        private Label label2;
+        private Label amountL;
         private Label label1;
     }
 }

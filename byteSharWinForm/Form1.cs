@@ -3,6 +3,7 @@ using BLL.Controllers;
 using BE.DTO;
 using ByteCard.Controllers;
 using System.Runtime.InteropServices;
+using Lenguage;
 
 namespace byteSharWinForm
 {
@@ -12,16 +13,35 @@ namespace byteSharWinForm
         public Form1()
         {
             InitializeComponent();
-            camController = new CamController(pictureBox3, pictureBox2,fileSystemWatcher1);
+            camController = new CamController(pictureBox3, pictureBox2, fileSystemWatcher1);
             passwordtxt.PasswordChar = '*';
             camController.LoadDispositives();
+            SelectLanguage.SelectedIndex = 0;
+        }
+        public Form1(int l)
+        {
+            InitializeComponent();
+            camController = new CamController(pictureBox3, pictureBox2, fileSystemWatcher1);
+            passwordtxt.PasswordChar = '*';
+            camController.LoadDispositives();
+            SelectLanguage.SelectedIndex = l;
+        }
+
+        private void getLanguage() {
+            languageController languageController = new();
+            languageController.ChangeLanguage(SelectLanguage.SelectedItem.ToString());
+            label1.Text = res.email;
+            label2.Text = res.pasword;
+            LoginBtn.Text = res.signin;
+            guna2Button1.Text = res.register;
+            this.Refresh();
         }
 
         private void LoginBtn_Click(object sender, EventArgs e)
         {
-            if (emailtxt.Text == "" || passwordtxt.Text == "")
+            if (emailtxt.Text == "" || emailtxt.isEmail() == false || passwordtxt.Text == "")
             {
-                MessageBox.Show("Complete los campos");
+                MessageBox.Show(res.log1);
             }
             else {
                 AuthController auth = new AuthController();
@@ -29,6 +49,7 @@ namespace byteSharWinForm
                 log.mail = emailtxt.Text;
                 log.password = passwordtxt.Text;
                 camController.TakePhoto(log);
+                camController.CloseCam();
                 UserDto myusr = auth.Login(log);
                 if (myusr != null)
                 {
@@ -38,7 +59,7 @@ namespace byteSharWinForm
                 }
                 else
                 {
-                    MessageBox.Show("Usuario o contraseña incorrectos");
+                    MessageBox.Show(res.log2);
                 }
             }
         }
@@ -68,7 +89,8 @@ namespace byteSharWinForm
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            Form2 newform = new Form2();
+            camController.CloseCam();
+            Form2 newform = new Form2(SelectLanguage.SelectedItem.ToString(), SelectLanguage.SelectedIndex);
             newform.Show();
             this.Hide();
         }
@@ -81,6 +103,11 @@ namespace byteSharWinForm
         private void fileSystemWatcher1_Created(object sender, FileSystemEventArgs e)
         {
             camController.GetFiles();
+        }
+
+        private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            getLanguage();
         }
     }
 }

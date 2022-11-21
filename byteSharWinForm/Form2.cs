@@ -1,5 +1,6 @@
 ﻿using BE.DTO;
 using BLL;
+using Lenguage;
 using ByteCard.Controllers;
 using System;
 using System.Collections.Generic;
@@ -15,9 +16,19 @@ namespace byteSharWinForm
 {
     public partial class Form2 : Form
     {
-        public Form2()
+        int index;
+        public Form2(string lang, int indx)
         {
             InitializeComponent();
+            emailL.Text = res.email;
+            passL.Text = res.pasword;
+            usrNameL.Text = res.usr;
+            dniL.Text = res.dni;
+            cellL.Text = res.cellphone;
+            lstNameL.Text = res.lstName;
+            guna2Button1.Text = res.register;
+            this.Refresh();
+            index = indx;
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
@@ -33,20 +44,20 @@ namespace byteSharWinForm
             bool log = actions.Register(reg);
             if (log)
             {
-                MessageBox.Show("Usuario registrado con exito");
+                MessageBox.Show(res.rok);
                 Form1 newform = new Form1();
                 newform.Show();
                 this.Close();
             }
             else
             {
-                MessageBox.Show("Error al registrar usuario,ingrese otra contrasenia");
+                MessageBox.Show(res.rnotok);
             }
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
+            Form1 form1 = new Form1(index);
             this.Close();
             form1.Show();
         }
