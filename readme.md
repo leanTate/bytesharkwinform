@@ -50,6 +50,10 @@ siendo esto deposito de capital, tranferencia de capital y emicion de tarjeta de
 
 ![](https://raw.githubusercontent.com/leanTate/bytesharkwinform/master/DOC%20Resources/Espesificaciones/Espesificacion%20CU%2007.png)
 
+## DSS
+
+![](https://raw.githubusercontent.com/leanTate/bytesharkwinform/master/DOC%20Resources/dss.png)
+
 </div>
 
 
