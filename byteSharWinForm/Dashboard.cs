@@ -44,7 +44,7 @@ namespace byteSharWinForm
             this.DoubleBuffered = true;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
             this.user = actions.GetData(usr.mail);
-            lblName.Text = user.userName;
+            lblName.Text = RegistryManager.GetRegistryUsername();
             btnBalance.Text = res.balance;
             btnDeposit.Text = res.deposit;
             btnTransference.Text = res.transference;

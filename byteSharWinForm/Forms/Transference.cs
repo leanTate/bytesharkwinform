@@ -40,7 +40,7 @@ namespace byteSharWinForm.Forms
             HomeController actions = new();
             bool log = actions.Transaction(transaction);
 
-            logger.Log($"{user.userName} realizo una transferencia de ${transaction.amount} a {transaction.destinatary}");
+            logger.Log($"{user.userName} realizo una transferencia de ${transaction.amount} al CBU {transaction.destinatary}");
             MessageBox.Show(log ? res.tbok : res.tbnotok);
         }
     }
