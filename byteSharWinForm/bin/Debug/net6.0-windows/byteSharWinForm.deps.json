@@ -17,7 +17,8 @@
           "Lenguage": "1.0.0",
           "Microsoft.Data.SqlClient": "5.0.0",
           "Security": "1.0.0",
-          "System.Data.SqlClient": "4.8.3"
+          "System.Data.SqlClient": "4.8.3",
+          "Utils": "1.0.0"
         },
         "runtime": {
           "byteSharWinForm.dll": {}
@@ -536,12 +537,20 @@
           },
           "es-AR/Lenguage.resources.dll": {
             "locale": "es-AR"
+          },
+          "pt-BR/Lenguage.resources.dll": {
+            "locale": "pt-BR"
           }
         }
       },
       "Security/1.0.0": {
         "runtime": {
           "Security.dll": {}
+        }
+      },
+      "Utils/1.0.0": {
+        "runtime": {
+          "Utils.dll": {}
         }
       }
     }
@@ -972,6 +981,11 @@
       "sha512": ""
     },
     "Security/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utils/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

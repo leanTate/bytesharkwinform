@@ -13,7 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "..\DAL\DAL.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Security", "..\Security\Security.csproj", "{2B4149ED-0802-4296-A356-D97AD717B8B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lenguage", "..\Lenguage\Lenguage.csproj", "{12FDECCD-E0DE-4C1F-9D8C-3CDF7E607825}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lenguage", "..\Lenguage\Lenguage.csproj", "{12FDECCD-E0DE-4C1F-9D8C-3CDF7E607825}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "..\Utils\Utils.csproj", "{CF1D88B1-4689-4EB5-B5B8-52A8BD735AF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{12FDECCD-E0DE-4C1F-9D8C-3CDF7E607825}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12FDECCD-E0DE-4C1F-9D8C-3CDF7E607825}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12FDECCD-E0DE-4C1F-9D8C-3CDF7E607825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF1D88B1-4689-4EB5-B5B8-52A8BD735AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1D88B1-4689-4EB5-B5B8-52A8BD735AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1D88B1-4689-4EB5-B5B8-52A8BD735AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1D88B1-4689-4EB5-B5B8-52A8BD735AF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,12 +13,14 @@ using ByteCard.Controllers;
 using BE.DTO;
 using BE.entities;
 using Lenguage;
+using Utils;
 
 namespace byteSharWinForm.Forms
 {
     public partial class Transference : Form
     {
         User user = new User();
+        EventLogger logger = new EventLogger();
         public Transference(User userd)
         {
             HomeController actions = new();
@@ -37,6 +39,8 @@ namespace byteSharWinForm.Forms
             transaction.amount = Convert.ToInt32(amount.Text);
             HomeController actions = new();
             bool log = actions.Transaction(transaction);
+
+            logger.Log($"{user.userName} realizo una transferencia de ${transaction.amount} a {transaction.destinatary}");
             MessageBox.Show(log ? res.tbok : res.tbnotok);
         }
     }

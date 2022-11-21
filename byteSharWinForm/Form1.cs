@@ -4,12 +4,16 @@ using BE.DTO;
 using ByteCard.Controllers;
 using System.Runtime.InteropServices;
 using Lenguage;
+using Utils;
 
 namespace byteSharWinForm
 {
     public partial class Form1 : Form
     {
         CamController camController;
+        EventLogger logger = new EventLogger();
+
+
         public Form1()
         {
             InitializeComponent();
@@ -39,9 +43,11 @@ namespace byteSharWinForm
 
         private void LoginBtn_Click(object sender, EventArgs e)
         {
+            
             if (emailtxt.Text == "" || emailtxt.isEmail() == false || passwordtxt.Text == "")
             {
                 MessageBox.Show(res.log1);
+                logger.Log(res.log1);
             }
             else {
                 AuthController auth = new AuthController();
@@ -51,6 +57,7 @@ namespace byteSharWinForm
                 camController.TakePhoto(log);
                 camController.CloseCam();
                 UserDto myusr = auth.Login(log);
+                logger.Log($"{log.mail} {DateTime.Now.ToString("hh.mm")} {DateTime.Now.ToLongDateString()}");
                 if (myusr != null)
                 {
                     Loader loaderFrm = new Loader(myusr);
@@ -60,6 +67,7 @@ namespace byteSharWinForm
                 else
                 {
                     MessageBox.Show(res.log2);
+                    logger.Log(res.log2);
                 }
             }
         }
