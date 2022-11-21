@@ -2,10 +2,7 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <EmbeddedResource Update="res.en-US.resx">
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Update="res.es-AR.resx">
+    <EmbeddedResource Update="res.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>

@@ -12,6 +12,7 @@ using System.Windows.Forms;
 using ByteCard.Controllers;
 using BE.DTO;
 using BE.entities;
+using Lenguage;
 
 namespace byteSharWinForm.Forms
 {
@@ -23,6 +24,8 @@ namespace byteSharWinForm.Forms
             HomeController actions = new();
             InitializeComponent();
             user = actions.GetData(userd.mail);
+            amountL.Text = res.amount;
+            TransferBtn.Text = res.transfer;
         }
 
         private void LoginBtn_Click(object sender, EventArgs e)
@@ -34,7 +37,7 @@ namespace byteSharWinForm.Forms
             transaction.amount = Convert.ToInt32(amount.Text);
             HomeController actions = new();
             bool log = actions.Transaction(transaction);
-            MessageBox.Show(log ? "la transferencia se realizo correctamente" : "la transferencia no se realizo correctamente");
+            MessageBox.Show(log ? res.tbok : res.tbnotok);
         }
     }
 }

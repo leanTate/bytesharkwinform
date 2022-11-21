@@ -38,8 +38,8 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
-            this.checkboxl = new System.Windows.Forms.CheckBox();
             this.emailtxt = new byteSharWinForm.Email();
+            this.SelectLanguage = new Guna.UI2.WinForms.Guna2ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -52,7 +52,7 @@
             this.passwordtxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.passwordtxt.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.passwordtxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(50)))));
-            this.passwordtxt.Location = new System.Drawing.Point(80, 137);
+            this.passwordtxt.Location = new System.Drawing.Point(80, 157);
             this.passwordtxt.Name = "passwordtxt";
             this.passwordtxt.Size = new System.Drawing.Size(308, 33);
             this.passwordtxt.TabIndex = 1;
@@ -68,7 +68,7 @@
             this.LoginBtn.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(10)))));
             this.LoginBtn.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.LoginBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(38)))), ((int)(((byte)(44)))));
-            this.LoginBtn.Location = new System.Drawing.Point(98, 190);
+            this.LoginBtn.Location = new System.Drawing.Point(98, 210);
             this.LoginBtn.Name = "LoginBtn";
             this.LoginBtn.Size = new System.Drawing.Size(277, 44);
             this.LoginBtn.TabIndex = 2;
@@ -80,7 +80,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(10)))));
-            this.label1.Location = new System.Drawing.Point(80, 48);
+            this.label1.Location = new System.Drawing.Point(80, 68);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(59, 25);
             this.label1.TabIndex = 3;
@@ -91,7 +91,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(10)))));
-            this.label2.Location = new System.Drawing.Point(80, 109);
+            this.label2.Location = new System.Drawing.Point(80, 129);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(97, 25);
             this.label2.TabIndex = 4;
@@ -120,7 +120,7 @@
             this.guna2Button1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(10)))));
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2Button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(10)))));
-            this.guna2Button1.Location = new System.Drawing.Point(98, 250);
+            this.guna2Button1.Location = new System.Drawing.Point(98, 270);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(277, 42);
             this.guna2Button1.TabIndex = 6;
@@ -129,7 +129,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(169, 198);
+            this.pictureBox2.Location = new System.Drawing.Point(169, 218);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(58, 36);
             this.pictureBox2.TabIndex = 7;
@@ -137,7 +137,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(243, 198);
+            this.pictureBox3.Location = new System.Drawing.Point(243, 218);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(63, 36);
             this.pictureBox3.TabIndex = 8;
@@ -150,27 +150,38 @@
             this.fileSystemWatcher1.SynchronizingObject = this;
             this.fileSystemWatcher1.Created += new System.IO.FileSystemEventHandler(this.fileSystemWatcher1_Created);
             // 
-            // checkboxl
-            // 
-            this.checkboxl.AutoSize = true;
-            this.checkboxl.Location = new System.Drawing.Point(12, 354);
-            this.checkboxl.Name = "checkboxl";
-            this.checkboxl.Size = new System.Drawing.Size(72, 19);
-            this.checkboxl.TabIndex = 9;
-            this.checkboxl.Text = "Spanish?";
-            this.checkboxl.UseVisualStyleBackColor = true;
-            this.checkboxl.CheckedChanged += new System.EventHandler(this.lenguage_CheckedChanged);
-            // 
             // emailtxt
             // 
             this.emailtxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(51)))), ((int)(((byte)(59)))));
             this.emailtxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.emailtxt.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.emailtxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(50)))));
-            this.emailtxt.Location = new System.Drawing.Point(80, 76);
+            this.emailtxt.Location = new System.Drawing.Point(80, 96);
             this.emailtxt.Name = "emailtxt";
             this.emailtxt.Size = new System.Drawing.Size(308, 33);
             this.emailtxt.TabIndex = 10;
+            // 
+            // SelectLanguage
+            // 
+            this.SelectLanguage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(51)))), ((int)(((byte)(59)))));
+            this.SelectLanguage.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.SelectLanguage.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.SelectLanguage.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(51)))), ((int)(((byte)(59)))));
+            this.SelectLanguage.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.SelectLanguage.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.SelectLanguage.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.SelectLanguage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(10)))));
+            this.SelectLanguage.ItemHeight = 30;
+            this.SelectLanguage.Items.AddRange(new object[] {
+            "en-US",
+            "es-AR",
+            "pt-BR"});
+            this.SelectLanguage.Location = new System.Drawing.Point(12, 12);
+            this.SelectLanguage.Name = "SelectLanguage";
+            this.SelectLanguage.Size = new System.Drawing.Size(108, 36);
+            this.SelectLanguage.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
+            this.SelectLanguage.TabIndex = 11;
+            this.SelectLanguage.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
             // 
             // Form1
             // 
@@ -178,8 +189,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(38)))), ((int)(((byte)(44)))));
             this.ClientSize = new System.Drawing.Size(816, 385);
+            this.Controls.Add(this.SelectLanguage);
             this.Controls.Add(this.emailtxt);
-            this.Controls.Add(this.checkboxl);
             this.Controls.Add(this.LoginBtn);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -214,7 +225,7 @@
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
         private FileSystemWatcher fileSystemWatcher1;
-        private CheckBox checkboxl;
         private Email emailtxt;
+        private Guna.UI2.WinForms.Guna2ComboBox SelectLanguage;
     }
 }

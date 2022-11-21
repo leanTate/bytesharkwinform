@@ -11,6 +11,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Lenguage;
 
 namespace byteSharWinForm.Forms
 {
@@ -20,6 +21,10 @@ namespace byteSharWinForm.Forms
         public Balance(User user)
         {
             InitializeComponent();
+            lblBalance.Text = res.balance;
+            label1.Text = res.tbe;
+            label2.Text = res.tbr;
+            label3.Text = res.deposits;
             HomeController actions = new();
             usr = actions.GetData(user.mail);
             lblUserCard.Text = $"{usr.userName} {user.lastName}";

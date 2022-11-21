@@ -22,14 +22,14 @@ namespace Lenguage {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class res___Copia {
+    public class _ {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal res___Copia() {
+        internal _() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace Lenguage {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Lenguage.res - Copia", typeof(res___Copia).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Lenguage.", typeof(_).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,7 +61,88 @@ namespace Lenguage {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a mail.
+        ///   Busca una cadena traducida similar a Actual Balance.
+        /// </summary>
+        public static string actualbalance {
+            get {
+                return ResourceManager.GetString("actualbalance", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Amount.
+        /// </summary>
+        public static string amount {
+            get {
+                return ResourceManager.GetString("amount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Apply.
+        /// </summary>
+        public static string apply {
+            get {
+                return ResourceManager.GetString("apply", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Balanace.
+        /// </summary>
+        public static string balance {
+            get {
+                return ResourceManager.GetString("balance", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Calculator.
+        /// </summary>
+        public static string calculator {
+            get {
+                return ResourceManager.GetString("calculator", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Cellphone.
+        /// </summary>
+        public static string cellphone {
+            get {
+                return ResourceManager.GetString("cellphone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Deposit.
+        /// </summary>
+        public static string deposit {
+            get {
+                return ResourceManager.GetString("deposit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a deposits.
+        /// </summary>
+        public static string deposits {
+            get {
+                return ResourceManager.GetString("deposits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a DNI.
+        /// </summary>
+        public static string dni {
+            get {
+                return ResourceManager.GetString("dni", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Email.
         /// </summary>
         public static string email {
             get {
@@ -70,7 +151,25 @@ namespace Lenguage {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a contrasenia.
+        ///   Busca una cadena traducida similar a Logout.
+        /// </summary>
+        public static string logOut {
+            get {
+                return ResourceManager.GetString("logOut", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Last Name.
+        /// </summary>
+        public static string lstName {
+            get {
+                return ResourceManager.GetString("lstName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Password.
         /// </summary>
         public static string pasword {
             get {
@@ -79,7 +178,7 @@ namespace Lenguage {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a registrar.
+        ///   Busca una cadena traducida similar a Register.
         /// </summary>
         public static string register {
             get {
@@ -88,11 +187,74 @@ namespace Lenguage {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a ingresar.
+        ///   Busca una cadena traducida similar a Save.
+        /// </summary>
+        public static string save {
+            get {
+                return ResourceManager.GetString("save", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a SignIn.
         /// </summary>
         public static string signin {
             get {
                 return ResourceManager.GetString("signin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a issued transfers.
+        /// </summary>
+        public static string tbe {
+            get {
+                return ResourceManager.GetString("tbe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a received transfers.
+        /// </summary>
+        public static string tbr {
+            get {
+                return ResourceManager.GetString("tbr", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Transfer.
+        /// </summary>
+        public static string transfer {
+            get {
+                return ResourceManager.GetString("transfer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Transference.
+        /// </summary>
+        public static string transference {
+            get {
+                return ResourceManager.GetString("transference", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a User Name.
+        /// </summary>
+        public static string usrName {
+            get {
+                return ResourceManager.GetString("usrName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a User Settings.
+        /// </summary>
+        public static string usrSettings {
+            get {
+                return ResourceManager.GetString("usrSettings", resourceCulture);
             }
         }
     }

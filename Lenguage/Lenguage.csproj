@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -7,26 +7,46 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Update="res.en-US.Designer.cs">
+      <DependentUpon>res.en-US.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
     <Compile Update="res.es-AR.Designer.cs">
       <DependentUpon>res.es-AR.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="res.en-US.Designer.cs">
+    <Compile Update="res.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>res.en-US.resx</DependentUpon>
+      <DependentUpon>res.resx</DependentUpon>
+    </Compile>
+    <Compile Update="res.pt-BR.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>res.pt-BR.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="res.en-US.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>res.en-US.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="res.es-AR.resx">
+      <SubType>Designer</SubType>
       <LastGenOutput>res.es-AR.Designer.cs</LastGenOutput>
       <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="res.en-US.resx">
+    <EmbeddedResource Update="res.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>res.en-US.Designer.cs</LastGenOutput>
+      <LastGenOutput>res.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="res.pt-BR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>res.pt-BR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 

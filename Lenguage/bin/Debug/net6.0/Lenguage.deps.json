@@ -16,6 +16,9 @@
           },
           "es-AR/Lenguage.resources.dll": {
             "locale": "es-AR"
+          },
+          "pt-BR/Lenguage.resources.dll": {
+            "locale": "pt-BR"
           }
         }
       }

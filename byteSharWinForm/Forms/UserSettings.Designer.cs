@@ -29,35 +29,35 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserSettings));
-            this.LoginBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.SaveBtn = new Guna.UI2.WinForms.Guna2Button();
             this.nametxt = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.nameL = new System.Windows.Forms.Label();
+            this.lastnameL = new System.Windows.Forms.Label();
+            this.cellL = new System.Windows.Forms.Label();
             this.applybtn = new Guna.UI2.WinForms.Guna2Button();
-            this.label4 = new System.Windows.Forms.Label();
+            this.mailL = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // LoginBtn
+            // SaveBtn
             // 
-            this.LoginBtn.BorderRadius = 10;
-            this.LoginBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.LoginBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.LoginBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.LoginBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.LoginBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(50)))));
-            this.LoginBtn.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(10)))));
-            this.LoginBtn.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LoginBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(38)))), ((int)(((byte)(44)))));
-            this.LoginBtn.Location = new System.Drawing.Point(433, 403);
-            this.LoginBtn.Name = "LoginBtn";
-            this.LoginBtn.Size = new System.Drawing.Size(281, 45);
-            this.LoginBtn.TabIndex = 26;
-            this.LoginBtn.Text = "save";
-            this.LoginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
+            this.SaveBtn.BorderRadius = 10;
+            this.SaveBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.SaveBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.SaveBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.SaveBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.SaveBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(50)))));
+            this.SaveBtn.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(10)))));
+            this.SaveBtn.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.SaveBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(38)))), ((int)(((byte)(44)))));
+            this.SaveBtn.Location = new System.Drawing.Point(433, 403);
+            this.SaveBtn.Name = "SaveBtn";
+            this.SaveBtn.Size = new System.Drawing.Size(281, 45);
+            this.SaveBtn.TabIndex = 26;
+            this.SaveBtn.Text = "save";
+            this.SaveBtn.Click += new System.EventHandler(this.LoginBtn_Click);
             // 
             // nametxt
             // 
@@ -95,38 +95,38 @@
             this.textBox2.Size = new System.Drawing.Size(390, 50);
             this.textBox2.TabIndex = 28;
             // 
-            // label2
+            // nameL
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(50)))));
-            this.label2.Location = new System.Drawing.Point(375, 29);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 21);
-            this.label2.TabIndex = 29;
-            this.label2.Text = "Name";
+            this.nameL.AutoSize = true;
+            this.nameL.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.nameL.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(50)))));
+            this.nameL.Location = new System.Drawing.Point(375, 29);
+            this.nameL.Name = "nameL";
+            this.nameL.Size = new System.Drawing.Size(53, 21);
+            this.nameL.TabIndex = 29;
+            this.nameL.Text = "Name";
             // 
-            // label1
+            // lastnameL
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(50)))));
-            this.label1.Location = new System.Drawing.Point(375, 131);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 21);
-            this.label1.TabIndex = 30;
-            this.label1.Text = "LastName";
+            this.lastnameL.AutoSize = true;
+            this.lastnameL.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lastnameL.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(50)))));
+            this.lastnameL.Location = new System.Drawing.Point(375, 131);
+            this.lastnameL.Name = "lastnameL";
+            this.lastnameL.Size = new System.Drawing.Size(82, 21);
+            this.lastnameL.TabIndex = 30;
+            this.lastnameL.Text = "LastName";
             // 
-            // label3
+            // cellL
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(50)))));
-            this.label3.Location = new System.Drawing.Point(375, 219);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 21);
-            this.label3.TabIndex = 31;
-            this.label3.Text = "Cellphone";
+            this.cellL.AutoSize = true;
+            this.cellL.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.cellL.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(50)))));
+            this.cellL.Location = new System.Drawing.Point(375, 219);
+            this.cellL.Name = "cellL";
+            this.cellL.Size = new System.Drawing.Size(84, 21);
+            this.cellL.TabIndex = 31;
+            this.cellL.Text = "Cellphone";
             // 
             // applybtn
             // 
@@ -147,16 +147,16 @@
             this.applybtn.Text = "apply";
             this.applybtn.Click += new System.EventHandler(this.applybtn_Click);
             // 
-            // label4
+            // mailL
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(50)))));
-            this.label4.Location = new System.Drawing.Point(375, 304);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 21);
-            this.label4.TabIndex = 34;
-            this.label4.Text = "Mail";
+            this.mailL.AutoSize = true;
+            this.mailL.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.mailL.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(50)))));
+            this.mailL.Location = new System.Drawing.Point(375, 304);
+            this.mailL.Name = "mailL";
+            this.mailL.Size = new System.Drawing.Size(41, 21);
+            this.mailL.TabIndex = 34;
+            this.mailL.Text = "Mail";
             // 
             // textBox3
             // 
@@ -176,15 +176,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(44)))), ((int)(((byte)(56)))));
             this.ClientSize = new System.Drawing.Size(1129, 533);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.mailL);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.applybtn);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.cellL);
+            this.Controls.Add(this.lastnameL);
+            this.Controls.Add(this.nameL);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.LoginBtn);
+            this.Controls.Add(this.SaveBtn);
             this.Controls.Add(this.nametxt);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "UserSettings";
@@ -196,15 +196,15 @@
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2Button LoginBtn;
+        private Guna.UI2.WinForms.Guna2Button SaveBtn;
         private TextBox nametxt;
         private TextBox textBox1;
         private TextBox textBox2;
-        private Label label2;
-        private Label label1;
-        private Label label3;
+        private Label nameL;
+        private Label lastnameL;
+        private Label cellL;
         private Guna.UI2.WinForms.Guna2Button applybtn;
-        private Label label4;
+        private Label mailL;
         private TextBox textBox3;
     }
 }

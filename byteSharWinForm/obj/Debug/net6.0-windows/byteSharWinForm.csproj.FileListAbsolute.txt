@@ -350,3 +350,4 @@ C:\Users\lean\OneDrive\Documents\repos\ssa\bytesharkwinform\byteSharWinForm\bin\
 C:\Users\lean\OneDrive\Documents\repos\ssa\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\es-AR\Lenguage.resources.dll
 C:\Users\lean\OneDrive\Documents\repos\ssa\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\en-US\Lenguage.resources.dll
 C:\Users\lean\OneDrive\Documents\repos\ssa\bytesharkwinform\byteSharWinForm\obj\Debug\net6.0-windows\byteSharWinForm.Email.resources
+C:\Users\lean\OneDrive\Documents\repos\ssa\bytesharkwinform\byteSharWinForm\bin\Debug\net6.0-windows\pt-BR\Lenguage.resources.dll
