@@ -17,6 +17,7 @@ using DAL;
 using ByteCard.Controllers;
 using Lenguage;
 using Utils;
+using report;
 
 namespace byteSharWinForm
 {
@@ -226,6 +227,13 @@ namespace byteSharWinForm
         {
             ActivarBoton(sender, RGBColors.color3);
             OpenChildForm(new UserSettings(user));
+        }
+
+        private void iconButton2_Click(object sender, EventArgs e)
+        {
+            HomeController controller = new();
+            
+            controller.OpenReport();
         }
     }
 }

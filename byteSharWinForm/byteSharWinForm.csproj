@@ -14,6 +14,7 @@
     <PackageReference Include="FontAwesome.Sharp" Version="6.1.1" />
     <PackageReference Include="Guna.UI2.WinForms" Version="2.0.3.5" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.0.0" />
+    <PackageReference Include="Microsoft.ReportingServices.ReportViewerControl.Winforms" Version="150.1537.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
   </ItemGroup>
 
@@ -21,6 +22,7 @@
     <ProjectReference Include="..\BE\BE.csproj" />
     <ProjectReference Include="..\BLL\BLL.csproj" />
     <ProjectReference Include="..\Lenguage\Lenguage.csproj" />
+    <ProjectReference Include="..\report\report.csproj" />
     <ProjectReference Include="..\Security\Security.csproj" />
     <ProjectReference Include="..\Utils\Utils.csproj" />
   </ItemGroup>

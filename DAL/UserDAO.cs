@@ -1,6 +1,7 @@
 ﻿using BE.DTO;
 using BE.entities;
 using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -127,6 +128,44 @@ namespace DAL
                 Console.WriteLine(ex.Message);
                 return false; 
             }
+        }
+        public List<User> getUsers()
+        {
+            User user = new User();
+            List<User> users = new List<User>();
+            try
+            {
+                SqlDataReader reader = null;
+                SqlCommand sqlCmd = new SqlCommand();
+                sqlCmd.CommandType = CommandType.Text;
+                sqlCmd.CommandText = $"SELECT * FROM users";
+                sqlCmd.Connection = connect.sqlConnection;
+                connect.OpenConnection();
+                reader = sqlCmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    user.id = Convert.ToInt32(reader.GetValue(0));
+                    user.userName = reader.GetValue(1).ToString();
+                    user.lastName = reader.GetValue(2).ToString();
+                    user.mail = reader.GetValue(3).ToString();
+                    user.password = reader.GetValue(4).ToString();
+                    user.dni = Convert.ToInt32(reader.GetValue(5));
+                    user.celphone = Convert.ToInt32(reader.GetValue(6));
+                    user.cbu = Convert.ToInt32(reader.GetValue(7));
+                    user.saldo = Convert.ToInt32(reader.GetValue(8));
+                    user.cardnumber = Convert.ToInt32(reader.GetValue(9));
+                    users.Add(user);
+                }
+                connect.CloseConnection();
+                reader.Close();
+                reader = null;
+                return users;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return users;
         }
     }
 }

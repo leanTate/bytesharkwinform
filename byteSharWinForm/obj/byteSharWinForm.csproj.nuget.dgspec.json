@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Juanm\\bytesharkwinform\\byteSharWinForm\\byteSharWinForm.csproj": {}
+    "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\byteSharWinForm\\byteSharWinForm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Juanm\\bytesharkwinform\\BE\\BE.csproj": {
+    "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\BE\\BE.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juanm\\bytesharkwinform\\BE\\BE.csproj",
+        "projectUniqueName": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\BE\\BE.csproj",
         "projectName": "BE",
-        "projectPath": "C:\\Users\\Juanm\\bytesharkwinform\\BE\\BE.csproj",
+        "projectPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\BE\\BE.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -19,42 +19,43 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Juanm\\bytesharkwinform\\BLL\\BLL.csproj": {
+    "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juanm\\bytesharkwinform\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\Juanm\\bytesharkwinform\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\Juanm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juanm\\bytesharkwinform\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\Lean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Juanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lean\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows7.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\Juanm\\bytesharkwinform\\BE\\BE.csproj": {
-                "projectPath": "C:\\Users\\Juanm\\bytesharkwinform\\BE\\BE.csproj"
+              "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\BE\\BE.csproj": {
+                "projectPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\BE\\BE.csproj"
               },
-              "C:\\Users\\Juanm\\bytesharkwinform\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\Juanm\\bytesharkwinform\\DAL\\DAL.csproj"
+              "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\DAL\\DAL.csproj"
               },
-              "C:\\Users\\Juanm\\bytesharkwinform\\Security\\Security.csproj": {
-                "projectPath": "C:\\Users\\Juanm\\bytesharkwinform\\Security\\Security.csproj"
+              "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\Security\\Security.csproj": {
+                "projectPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\Security\\Security.csproj"
               }
             }
           }
@@ -84,7 +85,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -96,52 +98,56 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Juanm\\bytesharkwinform\\byteSharWinForm\\byteSharWinForm.csproj": {
+    "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\byteSharWinForm\\byteSharWinForm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juanm\\bytesharkwinform\\byteSharWinForm\\byteSharWinForm.csproj",
+        "projectUniqueName": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\byteSharWinForm\\byteSharWinForm.csproj",
         "projectName": "byteSharWinForm",
-        "projectPath": "C:\\Users\\Juanm\\bytesharkwinform\\byteSharWinForm\\byteSharWinForm.csproj",
-        "packagesPath": "C:\\Users\\Juanm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juanm\\bytesharkwinform\\byteSharWinForm\\obj\\",
+        "projectPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\byteSharWinForm\\byteSharWinForm.csproj",
+        "packagesPath": "C:\\Users\\Lean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\byteSharWinForm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Juanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lean\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows7.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\Juanm\\bytesharkwinform\\BE\\BE.csproj": {
-                "projectPath": "C:\\Users\\Juanm\\bytesharkwinform\\BE\\BE.csproj"
+              "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\BE\\BE.csproj": {
+                "projectPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\BE\\BE.csproj"
               },
-              "C:\\Users\\Juanm\\bytesharkwinform\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\Juanm\\bytesharkwinform\\BLL\\BLL.csproj"
+              "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\BLL\\BLL.csproj"
               },
-              "C:\\Users\\Juanm\\bytesharkwinform\\Lenguage\\Lenguage.csproj": {
-                "projectPath": "C:\\Users\\Juanm\\bytesharkwinform\\Lenguage\\Lenguage.csproj"
+              "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\Lenguage\\Lenguage.csproj": {
+                "projectPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\Lenguage\\Lenguage.csproj"
               },
-              "C:\\Users\\Juanm\\bytesharkwinform\\Security\\Security.csproj": {
-                "projectPath": "C:\\Users\\Juanm\\bytesharkwinform\\Security\\Security.csproj"
+              "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\report\\report.csproj": {
+                "projectPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\report\\report.csproj"
               },
-              "C:\\Users\\Juanm\\bytesharkwinform\\Utils\\Utils.csproj": {
-                "projectPath": "C:\\Users\\Juanm\\bytesharkwinform\\Utils\\Utils.csproj"
+              "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\Security\\Security.csproj": {
+                "projectPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\Security\\Security.csproj"
+              },
+              "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\Utils\\Utils.csproj": {
+                "projectPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\Utils\\Utils.csproj"
               }
             }
           }
@@ -176,6 +182,10 @@
               "target": "Package",
               "version": "[5.0.0, )"
             },
+            "Microsoft.ReportingServices.ReportViewerControl.Winforms": {
+              "target": "Package",
+              "version": "[150.1537.0, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.3, )"
@@ -187,7 +197,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -199,20 +210,20 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Juanm\\bytesharkwinform\\DAL\\DAL.csproj": {
+    "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\DAL\\DAL.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juanm\\bytesharkwinform\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\Juanm\\bytesharkwinform\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\DAL\\DAL.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Juanm\\bytesharkwinform\\BE\\BE.csproj": {
-                "projectPath": "C:\\Users\\Juanm\\bytesharkwinform\\BE\\BE.csproj"
+              "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\BE\\BE.csproj": {
+                "projectPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\BE\\BE.csproj"
               }
             }
           }
@@ -222,20 +233,20 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Juanm\\bytesharkwinform\\Lenguage\\Lenguage.csproj": {
+    "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\Lenguage\\Lenguage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juanm\\bytesharkwinform\\Lenguage\\Lenguage.csproj",
+        "projectUniqueName": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\Lenguage\\Lenguage.csproj",
         "projectName": "Lenguage",
-        "projectPath": "C:\\Users\\Juanm\\bytesharkwinform\\Lenguage\\Lenguage.csproj",
-        "packagesPath": "C:\\Users\\Juanm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juanm\\bytesharkwinform\\Lenguage\\obj\\",
+        "projectPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\Lenguage\\Lenguage.csproj",
+        "packagesPath": "C:\\Users\\Lean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\Lenguage\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Juanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lean\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -244,6 +255,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -267,7 +279,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -276,15 +289,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Juanm\\bytesharkwinform\\Security\\Security.csproj": {
+    "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\report\\report.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juanm\\bytesharkwinform\\Security\\Security.csproj",
+        "projectUniqueName": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\report\\report.csproj",
+        "projectName": "report",
+        "projectPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\report\\report.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\BE\\BE.csproj": {
+                "projectPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\BE\\BE.csproj"
+              },
+              "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\Security\\Security.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\Security\\Security.csproj",
         "projectName": "Security",
-        "projectPath": "C:\\Users\\Juanm\\bytesharkwinform\\Security\\Security.csproj",
+        "projectPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\Security\\Security.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -295,11 +330,11 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Juanm\\bytesharkwinform\\Utils\\Utils.csproj": {
+    "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\Utils\\Utils.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juanm\\bytesharkwinform\\Utils\\Utils.csproj",
+        "projectUniqueName": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\Utils\\Utils.csproj",
         "projectName": "Utils",
-        "projectPath": "C:\\Users\\Juanm\\bytesharkwinform\\Utils\\Utils.csproj",
+        "projectPath": "C:\\Users\\Lean\\Documents\\repos\\bytesharkwinform\\Utils\\Utils.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}

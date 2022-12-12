@@ -4,3 +4,9 @@ C:\Users\Juanm\bytesharkwinform\Utils\obj\Debug\Utils.csproj.AssemblyReference.c
 C:\Users\Juanm\bytesharkwinform\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache
 C:\Users\Juanm\bytesharkwinform\Utils\obj\Debug\Utils.dll
 C:\Users\Juanm\bytesharkwinform\Utils\obj\Debug\Utils.pdb
+C:\Users\Lean\Documents\repos\bytesharkwinform\Utils\bin\Debug\Utils.dll
+C:\Users\Lean\Documents\repos\bytesharkwinform\Utils\bin\Debug\Utils.pdb
+C:\Users\Lean\Documents\repos\bytesharkwinform\Utils\obj\Debug\Utils.csproj.AssemblyReference.cache
+C:\Users\Lean\Documents\repos\bytesharkwinform\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache
+C:\Users\Lean\Documents\repos\bytesharkwinform\Utils\obj\Debug\Utils.dll
+C:\Users\Lean\Documents\repos\bytesharkwinform\Utils\obj\Debug\Utils.pdb

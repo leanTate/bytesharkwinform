@@ -84,3 +84,17 @@ C:\Users\Juanm\bytesharkwinform\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\Juanm\bytesharkwinform\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\Juanm\bytesharkwinform\DAL\obj\Debug\DAL.dll
 C:\Users\Juanm\bytesharkwinform\DAL\obj\Debug\DAL.pdb
+C:\Users\Lean\Documents\repos\bytesharkwinform\DAL\bin\Debug\DAL.dll
+C:\Users\Lean\Documents\repos\bytesharkwinform\DAL\bin\Debug\DAL.pdb
+C:\Users\Lean\Documents\repos\bytesharkwinform\DAL\bin\Debug\BE.dll
+C:\Users\Lean\Documents\repos\bytesharkwinform\DAL\bin\Debug\DotNetEnv.dll
+C:\Users\Lean\Documents\repos\bytesharkwinform\DAL\bin\Debug\Sprache.dll
+C:\Users\Lean\Documents\repos\bytesharkwinform\DAL\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Lean\Documents\repos\bytesharkwinform\DAL\bin\Debug\BE.pdb
+C:\Users\Lean\Documents\repos\bytesharkwinform\DAL\bin\Debug\Sprache.xml
+C:\Users\Lean\Documents\repos\bytesharkwinform\DAL\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Lean\Documents\repos\bytesharkwinform\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Lean\Documents\repos\bytesharkwinform\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Lean\Documents\repos\bytesharkwinform\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Lean\Documents\repos\bytesharkwinform\DAL\obj\Debug\DAL.dll
+C:\Users\Lean\Documents\repos\bytesharkwinform\DAL\obj\Debug\DAL.pdb

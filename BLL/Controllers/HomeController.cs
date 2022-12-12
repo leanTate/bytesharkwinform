@@ -61,5 +61,10 @@ namespace ByteCard.Controllers;
             string calc = "calc.exe";
             Process.Start(calc);
         }
+    public void OpenReport()
+    {
+        string report = "report.exe";
+        Process.Start(report);
     }
+}
 
